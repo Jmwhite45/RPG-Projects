@@ -18,7 +18,9 @@ namespace RPGBattleTracker
             NPCList = new List<NPC>();
             InitList = new List<Character>();
             InitializeComponent();
-        }
+            CurrentPlayer = new Player();
+            CurrentNPC = new NPC();
+        }   
 
         public enum form
         {
@@ -30,14 +32,21 @@ namespace RPGBattleTracker
         private CreateNPCForm CNform;
         private Player_Initative_Form AIform;
 
+        private Player CurrentPlayer;
+        private NPC CurrentNPC;
+
         private form activeForm;
         private List<Player> playerList;
         private List<Character> InitList;
         private List<NPC> NPCList;
 
-        public void CreatePlayerDone()
+        public void CreatePlayerDone(bool add)
         {
             activeForm = form.MAIN;
+            if (add == false)
+            {
+                playerList.Remove(CurrentPlayer);
+            }
             playerList.Add(CPform.finishedPlayer);
             updatePlayers();
             CPform.Close();
@@ -204,6 +213,120 @@ namespace RPGBattleTracker
             }
 
             return returnList;
+        }
+
+        private void RemoveNPCbtn_Click(object sender, EventArgs e)
+        {
+            if(NPClistlb.SelectedItem == null)
+            {
+                return;
+            }
+            string Select = NPClistlb.SelectedItem.ToString();
+            NPC currentSelected = new NPC();
+            foreach (NPC N in NPCList)
+            {
+                if (N.GetName() == Select)
+                {
+                    currentSelected = N;
+                    break;
+                }
+            }
+            if(currentSelected.GetName() == null)
+            {
+                return;
+            }
+
+            NPCList.Remove(currentSelected);
+            updateNPCs();
+        }
+
+        private void removePlayerbtn_Click(object sender, EventArgs e)
+        {
+            if (PlayerListlb.SelectedItem == null)
+            {
+                return;
+            }
+            string Select = PlayerListlb.SelectedItem.ToString();
+            Player currentSelected = new Player();
+            foreach (Player P in playerList)
+            {
+                if (P.GetName() == Select)
+                {
+                    currentSelected = P;
+                    break;
+                }
+            }
+            if (currentSelected.GetName() == null)
+            {
+                return;
+            }
+
+            playerList.Remove(currentSelected);
+            updatePlayers();
+        }
+
+        private void DisplayPlayer()
+        {
+            PlayerDisplay.Text = CurrentPlayer.getPlayer();
+            CharacterDisplay.Text = CurrentPlayer.GetName();
+            HPDisplay.Text = CurrentPlayer.getCurrentHP()+"/"+CurrentPlayer.getMaxHP();
+        }
+
+        private void DisplayNPC()
+        {
+            NPCHPDisplay.Text = CurrentNPC.getCurrentHP() + "/" + CurrentNPC.getMaxHP();
+            NPCNameDisplay.Text = CurrentNPC.GetName();
+            CRDisplay.Text = CurrentNPC.GetCR().ToString();
+        }
+
+        private void PlayerListlb_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(PlayerListlb.SelectedItem == null)
+            {
+                return;
+            }
+            string Select = PlayerListlb.SelectedItem.ToString();
+
+            // get new selected player
+            foreach (Player P in playerList)
+            {
+                if (P.GetName() == Select)
+                {
+                    CurrentPlayer = P;
+                    break;
+                }
+            }
+            DisplayPlayer();
+        }
+
+        private void NPClistlb_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (NPClistlb.SelectedItem == null)
+            {
+                return;
+            }
+            string Select = NPClistlb.SelectedItem.ToString();
+
+            // get new selected player
+            foreach(NPC N in NPCList)
+            {
+                if (N.GetName() == Select)
+                {
+                    CurrentNPC = N;
+                    break;
+                }
+            }
+            DisplayNPC();
+        }
+
+        private void btnEditPlayer_Click(object sender, EventArgs e)
+        {
+            if (CurrentPlayer != null)
+            {
+                CPform = new CreatePlayerForm(this, CurrentPlayer);
+                CPform.Show();
+                this.Hide();
+            }
         }
     }
 }

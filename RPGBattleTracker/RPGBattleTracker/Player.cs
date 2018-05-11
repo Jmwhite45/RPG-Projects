@@ -19,6 +19,11 @@ namespace RPGBattleTracker
         private string CharacterNotes;
         private int PassivePerception;
 
+        public Player()
+        {
+            Name = null; 
+        }
+
         public Player(int L, int HP, string R, string C, string N, string P, string CN, int PP)
         {
             MaxHP = HP;
@@ -33,7 +38,11 @@ namespace RPGBattleTracker
             initiative = 0;
         }
 
-        public int getHP()
+        public int getMaxHP()
+        {
+            return MaxHP;
+        }
+        public int getCurrentHP()
         {
             return CurrentHP;
         }
@@ -57,6 +66,27 @@ namespace RPGBattleTracker
         public int GetInit()
         {
             return initiative;
+        }
+        
+        public string getNotes()
+        {
+            return CharacterNotes;
+        }
+        public int getPassive()
+        {
+            return PassivePerception;
+        }
+        public string GetRace()
+        {
+            return race;
+        }
+        public string getClass()
+        {
+            return Class;
+        }
+        public int GetLevel()
+        {
+            return Level;
         }
     }
 }

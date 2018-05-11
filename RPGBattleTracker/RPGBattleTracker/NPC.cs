@@ -17,6 +17,11 @@ namespace RPGBattleTracker
         private string Name;
         private string CharacterNotes;
 
+        public NPC()
+        {
+            Name = null;
+        }
+
         public NPC(int HP, int cr, int I, string T, string S, string N, string CN)
         {
             MaxHP = HP;
@@ -37,6 +42,21 @@ namespace RPGBattleTracker
         public int GetInit()
         {
             return initiative + Rolling.RollD(20);
+        }
+
+        public int GetCR()
+        {
+            return CR;
+        }
+
+        public int getMaxHP()
+        {
+            return MaxHP;
+        }
+
+        public int getCurrentHP()
+        {
+            return CurrentHP;
         }
     }
 }

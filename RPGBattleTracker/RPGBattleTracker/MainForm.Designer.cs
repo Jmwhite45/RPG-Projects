@@ -39,6 +39,18 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.AddTests = new System.Windows.Forms.Button();
+            this.RemoveNPCbtn = new System.Windows.Forms.Button();
+            this.removePlayerbtn = new System.Windows.Forms.Button();
+            this.HPDisplay = new System.Windows.Forms.Label();
+            this.CharacterDisplay = new System.Windows.Forms.Label();
+            this.PlayerDisplay = new System.Windows.Forms.Label();
+            this.btnEditPlayer = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.NPCNameDisplay = new System.Windows.Forms.Label();
+            this.NPCHPDisplay = new System.Windows.Forms.Label();
+            this.CRDisplay = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // addPlayerbtn
@@ -70,7 +82,7 @@
             // 
             // addNpcbtn
             // 
-            this.addNpcbtn.Location = new System.Drawing.Point(93, 12);
+            this.addNpcbtn.Location = new System.Drawing.Point(12, 36);
             this.addNpcbtn.Name = "addNpcbtn";
             this.addNpcbtn.Size = new System.Drawing.Size(75, 23);
             this.addNpcbtn.TabIndex = 3;
@@ -105,6 +117,7 @@
             this.PlayerListlb.Name = "PlayerListlb";
             this.PlayerListlb.Size = new System.Drawing.Size(140, 225);
             this.PlayerListlb.TabIndex = 8;
+            this.PlayerListlb.SelectedIndexChanged += new System.EventHandler(this.PlayerListlb_SelectedIndexChanged);
             // 
             // NPClistlb
             // 
@@ -113,6 +126,7 @@
             this.NPClistlb.Name = "NPClistlb";
             this.NPClistlb.Size = new System.Drawing.Size(140, 225);
             this.NPClistlb.TabIndex = 9;
+            this.NPClistlb.SelectedIndexChanged += new System.EventHandler(this.NPClistlb_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -142,11 +156,134 @@
             this.AddTests.UseVisualStyleBackColor = true;
             this.AddTests.Click += new System.EventHandler(this.AddTests_Click);
             // 
+            // RemoveNPCbtn
+            // 
+            this.RemoveNPCbtn.Location = new System.Drawing.Point(93, 36);
+            this.RemoveNPCbtn.Name = "RemoveNPCbtn";
+            this.RemoveNPCbtn.Size = new System.Drawing.Size(87, 23);
+            this.RemoveNPCbtn.TabIndex = 14;
+            this.RemoveNPCbtn.Text = "Remove NPC";
+            this.RemoveNPCbtn.UseVisualStyleBackColor = true;
+            this.RemoveNPCbtn.Click += new System.EventHandler(this.RemoveNPCbtn_Click);
+            // 
+            // removePlayerbtn
+            // 
+            this.removePlayerbtn.Location = new System.Drawing.Point(93, 12);
+            this.removePlayerbtn.Name = "removePlayerbtn";
+            this.removePlayerbtn.Size = new System.Drawing.Size(87, 23);
+            this.removePlayerbtn.TabIndex = 13;
+            this.removePlayerbtn.Text = "Remove Player";
+            this.removePlayerbtn.UseVisualStyleBackColor = true;
+            this.removePlayerbtn.Click += new System.EventHandler(this.removePlayerbtn_Click);
+            // 
+            // HPDisplay
+            // 
+            this.HPDisplay.AutoSize = true;
+            this.HPDisplay.Location = new System.Drawing.Point(538, 161);
+            this.HPDisplay.Name = "HPDisplay";
+            this.HPDisplay.Size = new System.Drawing.Size(22, 13);
+            this.HPDisplay.TabIndex = 17;
+            this.HPDisplay.Text = "HP";
+            // 
+            // CharacterDisplay
+            // 
+            this.CharacterDisplay.AutoSize = true;
+            this.CharacterDisplay.Location = new System.Drawing.Point(538, 139);
+            this.CharacterDisplay.Name = "CharacterDisplay";
+            this.CharacterDisplay.Size = new System.Drawing.Size(84, 13);
+            this.CharacterDisplay.TabIndex = 18;
+            this.CharacterDisplay.Text = "Character Name";
+            // 
+            // PlayerDisplay
+            // 
+            this.PlayerDisplay.AutoSize = true;
+            this.PlayerDisplay.Location = new System.Drawing.Point(538, 117);
+            this.PlayerDisplay.Name = "PlayerDisplay";
+            this.PlayerDisplay.Size = new System.Drawing.Size(67, 13);
+            this.PlayerDisplay.TabIndex = 19;
+            this.PlayerDisplay.Text = "Player Name";
+            // 
+            // btnEditPlayer
+            // 
+            this.btnEditPlayer.Location = new System.Drawing.Point(541, 178);
+            this.btnEditPlayer.Name = "btnEditPlayer";
+            this.btnEditPlayer.Size = new System.Drawing.Size(92, 25);
+            this.btnEditPlayer.TabIndex = 20;
+            this.btnEditPlayer.Text = "Edit Player";
+            this.btnEditPlayer.UseVisualStyleBackColor = true;
+            this.btnEditPlayer.Click += new System.EventHandler(this.btnEditPlayer_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(541, 209);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(92, 25);
+            this.button3.TabIndex = 21;
+            this.button3.Text = "Add Damage";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(685, 209);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(92, 25);
+            this.button4.TabIndex = 25;
+            this.button4.Text = "Add Damage";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(685, 178);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(92, 25);
+            this.button5.TabIndex = 24;
+            this.button5.Text = "Edit Character";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // NPCNameDisplay
+            // 
+            this.NPCNameDisplay.AutoSize = true;
+            this.NPCNameDisplay.Location = new System.Drawing.Point(682, 117);
+            this.NPCNameDisplay.Name = "NPCNameDisplay";
+            this.NPCNameDisplay.Size = new System.Drawing.Size(60, 13);
+            this.NPCNameDisplay.TabIndex = 23;
+            this.NPCNameDisplay.Text = "NPC Name";
+            // 
+            // NPCHPDisplay
+            // 
+            this.NPCHPDisplay.AutoSize = true;
+            this.NPCHPDisplay.Location = new System.Drawing.Point(682, 161);
+            this.NPCHPDisplay.Name = "NPCHPDisplay";
+            this.NPCHPDisplay.Size = new System.Drawing.Size(22, 13);
+            this.NPCHPDisplay.TabIndex = 22;
+            this.NPCHPDisplay.Text = "HP";
+            // 
+            // CRDisplay
+            // 
+            this.CRDisplay.AutoSize = true;
+            this.CRDisplay.Location = new System.Drawing.Point(682, 139);
+            this.CRDisplay.Name = "CRDisplay";
+            this.CRDisplay.Size = new System.Drawing.Size(22, 13);
+            this.CRDisplay.TabIndex = 26;
+            this.CRDisplay.Text = "CR";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(517, 318);
+            this.ClientSize = new System.Drawing.Size(954, 348);
+            this.Controls.Add(this.CRDisplay);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.NPCNameDisplay);
+            this.Controls.Add(this.NPCHPDisplay);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnEditPlayer);
+            this.Controls.Add(this.PlayerDisplay);
+            this.Controls.Add(this.CharacterDisplay);
+            this.Controls.Add(this.HPDisplay);
+            this.Controls.Add(this.RemoveNPCbtn);
+            this.Controls.Add(this.removePlayerbtn);
             this.Controls.Add(this.AddTests);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -178,6 +315,18 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button AddTests;
+        private System.Windows.Forms.Button RemoveNPCbtn;
+        private System.Windows.Forms.Button removePlayerbtn;
+        private System.Windows.Forms.Label HPDisplay;
+        private System.Windows.Forms.Label CharacterDisplay;
+        private System.Windows.Forms.Label PlayerDisplay;
+        private System.Windows.Forms.Button btnEditPlayer;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label NPCNameDisplay;
+        private System.Windows.Forms.Label NPCHPDisplay;
+        private System.Windows.Forms.Label CRDisplay;
     }
 }
 
