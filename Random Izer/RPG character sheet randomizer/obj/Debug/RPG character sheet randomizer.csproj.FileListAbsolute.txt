@@ -102,3 +102,20 @@ C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG characte
 C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.ErrorReportingForm.resources
 C:\Users\legoj\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.ErrorReportingForm.resources
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\Random Izer\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe.config
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\Random Izer\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe.manifest
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\Random Izer\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.application
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\Random Izer\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\Random Izer\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.pdb
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\Random Izer\RPG character sheet randomizer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\Random Izer\RPG character sheet randomizer\bin\Debug\System.Json.dll
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\Random Izer\RPG character sheet randomizer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\Random Izer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.csprojResolveAssemblyReference.cache
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\Random Izer\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.ErrorReportingForm.resources
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\Random Izer\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.RpgRndCharGen.resources
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\Random Izer\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.Properties.Resources.resources
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\Random Izer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.csproj.GenerateResource.Cache
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\Random Izer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.exe.manifest
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\Random Izer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.application
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\Random Izer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.exe
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\Random Izer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.pdb
