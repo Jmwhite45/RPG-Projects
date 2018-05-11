@@ -1,6 +1,6 @@
 ﻿namespace RPGBattleTracker
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -32,12 +32,13 @@
             this.InitOrderlb = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.addNpcbtn = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.NPCInit = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.PlayerListlb = new System.Windows.Forms.ListBox();
             this.NPClistlb = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.AddTests = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // addPlayerbtn
@@ -63,9 +64,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(51, 62);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "label1";
+            this.label1.Text = "Initative";
             // 
             // addNpcbtn
             // 
@@ -77,23 +78,25 @@
             this.addNpcbtn.UseVisualStyleBackColor = true;
             this.addNpcbtn.Click += new System.EventHandler(this.addNpcbtn_Click);
             // 
-            // button3
+            // NPCInit
             // 
-            this.button3.Location = new System.Drawing.Point(215, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(103, 35);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Roll NPC Initative";
-            this.button3.UseVisualStyleBackColor = true;
+            this.NPCInit.Location = new System.Drawing.Point(240, 12);
+            this.NPCInit.Name = "NPCInit";
+            this.NPCInit.Size = new System.Drawing.Size(103, 35);
+            this.NPCInit.TabIndex = 4;
+            this.NPCInit.Text = "Roll NPC Initative";
+            this.NPCInit.UseVisualStyleBackColor = true;
+            this.NPCInit.Click += new System.EventHandler(this.NPCInit_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(324, 12);
+            this.button1.Location = new System.Drawing.Point(361, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(103, 35);
             this.button1.TabIndex = 7;
             this.button1.Text = "Add Player Initative";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // PlayerListlb
             // 
@@ -114,37 +117,48 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(276, 62);
+            this.label2.Location = new System.Drawing.Point(259, 62);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 10;
-            this.label2.Text = "label2";
+            this.label2.Text = "Players";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(421, 61);
+            this.label3.Location = new System.Drawing.Point(391, 62);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.Size = new System.Drawing.Size(82, 13);
             this.label3.TabIndex = 11;
-            this.label3.Text = "label3";
+            this.label3.Text = "NPCs/Monsters";
             // 
-            // Form1
+            // AddTests
+            // 
+            this.AddTests.Location = new System.Drawing.Point(158, 81);
+            this.AddTests.Name = "AddTests";
+            this.AddTests.Size = new System.Drawing.Size(51, 58);
+            this.AddTests.TabIndex = 12;
+            this.AddTests.Text = "Add Test Players";
+            this.AddTests.UseVisualStyleBackColor = true;
+            this.AddTests.Click += new System.EventHandler(this.AddTests_Click);
+            // 
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(697, 318);
+            this.Controls.Add(this.AddTests);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.NPClistlb);
             this.Controls.Add(this.PlayerListlb);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.NPCInit);
             this.Controls.Add(this.addNpcbtn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.InitOrderlb);
             this.Controls.Add(this.addPlayerbtn);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -157,12 +171,13 @@
         private System.Windows.Forms.ListBox InitOrderlb;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button addNpcbtn;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button NPCInit;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ListBox PlayerListlb;
         private System.Windows.Forms.ListBox NPClistlb;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button AddTests;
     }
 }
 

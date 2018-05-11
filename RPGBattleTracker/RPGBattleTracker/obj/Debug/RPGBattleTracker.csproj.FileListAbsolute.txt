@@ -9,3 +9,15 @@ c:\users\legoj\documents\visual studio 2017\Projects\RPGBattleTracker\RPGBattleT
 c:\users\legoj\documents\visual studio 2017\Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.exe
 c:\users\legoj\documents\visual studio 2017\Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.pdb
 C:\Users\legoj\documents\visual studio 2017\Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.CreateNPCForm.resources
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\RPGBattleTracker\RPGBattleTracker\bin\Debug\RPGBattleTracker.exe.config
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\RPGBattleTracker\RPGBattleTracker\bin\Debug\RPGBattleTracker.exe
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\RPGBattleTracker\RPGBattleTracker\bin\Debug\RPGBattleTracker.pdb
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.csprojResolveAssemblyReference.cache
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.CreateNPCForm.resources
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.CreatePlayerForm.resources
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.Properties.Resources.resources
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.csproj.GenerateResource.Cache
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.exe
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.pdb
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.Player_Initative_Form.resources
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.MainForm.resources

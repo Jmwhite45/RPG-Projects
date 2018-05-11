@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPGBattleTracker
 {
-    public class Player
+    public class Player: Character
     {
         private int MaxHP;
         private int Level;
@@ -30,6 +30,7 @@ namespace RPGBattleTracker
             PlayerName = P;
             CharacterNotes = CN;
             PassivePerception = PP;
+            initiative = 0;
         }
 
         public int getHP()
@@ -37,7 +38,7 @@ namespace RPGBattleTracker
             return CurrentHP;
         }
 
-        public string getName()
+        public string GetName()
         {
             return Name;
         }
@@ -48,9 +49,12 @@ namespace RPGBattleTracker
 
         public void setInit(int init)
         {
-            initiative = init;
+           
+                initiative = init;
+            
         }
-        public int getInit()
+
+        public int GetInit()
         {
             return initiative;
         }

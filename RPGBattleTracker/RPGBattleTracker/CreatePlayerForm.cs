@@ -12,12 +12,12 @@ namespace RPGBattleTracker
 {
     public partial class CreatePlayerForm : Form
     {
-        public  CreatePlayerForm(Form1 previousForm)
+        public  CreatePlayerForm(MainForm previousForm)
         {
             Prev = previousForm;
             InitializeComponent();
         }
-        private Form1 Prev;
+        private MainForm Prev;
         public Player finishedPlayer;
 
         public bool CheckforErrors()

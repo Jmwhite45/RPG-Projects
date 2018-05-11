@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPGBattleTracker
 {
-    public class NPC
+    public class NPC: Character
     {
         private int MaxHP;
         private int CR;
@@ -29,9 +29,14 @@ namespace RPGBattleTracker
             CharacterNotes = CN;
         }
 
-        public string getName()
+        public string GetName()
         {
             return Name;
+        }
+
+        public int GetInit()
+        {
+            return initiative + Rolling.RollD(20);
         }
     }
 }
