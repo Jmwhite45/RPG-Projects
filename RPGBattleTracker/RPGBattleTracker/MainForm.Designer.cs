@@ -146,7 +146,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(697, 318);
+            this.ClientSize = new System.Drawing.Size(517, 318);
             this.Controls.Add(this.AddTests);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -159,7 +159,7 @@
             this.Controls.Add(this.InitOrderlb);
             this.Controls.Add(this.addPlayerbtn);
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = " ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
