@@ -1,0 +1,86 @@
+ClassName ClassNUm
+HP dice
+Gold Formula
+
+alchemist 22
+8
+3d6*10
+
+cavalier 23
+10
+5d6*10
+
+Gunslinger
+10
+5d6*10
+
+inquisitor 24
+d8
+4d6*10
+
+magus
+8
+4d6*10
+
+oracle 25
+8
+3d6*10
+
+summoner 26
+8
+2d6*10
+
+vigilante
+8
+5d6*10
+
+witch 27
+6
+3d6*10
+
+antipalidin 28
+10
+5d6*10
+
+arcanist 12
+6
+2d6*10
+
+bloodrager
+10
+3d6*10
+
+Brawler
+D10
+3d6*10
+
+Hunter
+8
+4d6*10
+
+investigator
+8
+3d6*10
+
+Shamabn
+8
+3d6*10
+
+Skald
+8
+3d6*10
+
+slayer
+10
+5d6*10
+
+swashbuckler
+10
+5d6*10
+
+warpriest 21
+8
+5d6*10
+
+
+

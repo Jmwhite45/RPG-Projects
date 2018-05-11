@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Pathfinder [
+
+<!ELEMENT Pathfinder ANY>
+  
+<!ELEMENT Classes ANY>
+<!ELEMENT Class ANY>
+<!ATTLIST Class id ID #REQUIRED>
+
+<!ELEMENT Orders ANY>
+  <!ELEMENT Order ANY>
+<!ATTLIST Order id ID #REQUIRED>
+
+<!ELEMENT Mysteries ANY>
+  <!ELEMENT Mystery ANY>
+<!ATTLIST Mystery id ID #REQUIRED>
+
+<!ELEMENT Patreons ANY>
+  <!ELEMENT Patreon ANY>
+<!ATTLIST Patreon id ID #REQUIRED>
+
+<!ELEMENT BarbarianArches ANY>
+  <!ELEMENT BarbarianArchetype ANY>
+  <!ATTLIST BarbarianArchetype id ID #REQUIRED>
+
+  <!ELEMENT BardArches ANY>
+  <!ELEMENT BardArchetype ANY>
+  <!ATTLIST BardArchetype id ID #REQUIRED>
+
+  <!ELEMENT ClericArches ANY>
+  <!ELEMENT ClericArchetype ANY>
+<!ATTLIST ClericArchetype id ID #REQUIRED>
+
+<!ELEMENT DruidArches ANY>
+  <!ELEMENT DruidArchetype ANY>
+<!ATTLIST DruidArchetype id ID #REQUIRED>
+
+<!ELEMENT FighterArches ANY>
+  <!ELEMENT FighterArchetype ANY>
+  <!ATTLIST FighterArchetype id ID #REQUIRED>
+
+  <!ELEMENT MonkArches ANY>
+  <!ELEMENT MonkArchetype ANY>
+<!ATTLIST MonkArchetype id ID #REQUIRED>
+
+<!ELEMENT PaladinArches ANY>
+  <!ELEMENT PaladinArchetype ANY>
+<!ATTLIST PaladinArchetype id ID #REQUIRED>
+
+<!ELEMENT RangerArches ANY>
+  <!ELEMENT RangerArchetype ANY>
+  <!ATTLIST RangerArchetype id ID #REQUIRED>
+
+  <!ELEMENT RangerCombateStyles ANY>
+  <!ELEMENT CombateStyle ANY>
+  <!ATTLIST CombateStyle id ID #REQUIRED>
+
+  <!ELEMENT RogueArches ANY>
+  <!ELEMENT RogueArchetype ANY>
+<!ATTLIST RogueArchetype id ID #REQUIRED>
+
+<!ELEMENT bloodlines ANY>
+  <!ELEMENT bloodline ANY>
+<!ATTLIST bloodline id ID #REQUIRED>
+
+<!ELEMENT schools ANY>
+  <!ELEMENT school ANY>
+<!ATTLIST school id ID #REQUIRED>
+
+<!ELEMENT SubDomains ANY>
+  <!ELEMENT SubDomain ANY>
+<!ATTLIST SubDomain id ID #REQUIRED>
+
+<!ELEMENT Discoveries ANY>
+  <!ATTLIST Discovery id ID #REQUIRED>
+<!ATTLIST Discovery id ID #REQUIRED>
+  
+<!ELEMENT AirSubDomain ANY>
+<!ATTLIST AirSubDomain id ID #REQUIRED>
+
+<!ELEMENT AnimalSubDomain ANY>
+<!ATTLIST AnimalSubDomain id ID #REQUIRED>
+
+<!ELEMENT ArtificeSubDomain ANY>
+<!ATTLIST ArtificeSubDomain id ID #REQUIRED>
+
+<!ELEMENT ChaosSubDomain ANY>
+<!ATTLIST ChaosSubDomain id ID #REQUIRED>
+
+<!ELEMENT CharmSubDomain ANY>
+<!ATTLIST CharmSubDomain id ID #REQUIRED>
+
+<!ELEMENT CommunitySubDomain ANY>
+<!ATTLIST CommunitySubDomain id ID #REQUIRED>
+
+
+<!ELEMENT DarknessSubDomain ANY>
+<!ATTLIST DarknessSubDomain id ID #REQUIRED>
+
+<!ELEMENT DeathSubDomain ANY>
+<!ATTLIST DeathSubDomain id ID #REQUIRED>
+
+<!ELEMENT DestructionSubDomain ANY>
+<!ATTLIST DestructionSubDomain id ID #REQUIRED>
+
+<!ELEMENT EarthSubDomain ANY>
+<!ATTLIST EarthSubDomain id ID #REQUIRED>
+
+<!ELEMENT EvilSubDomain ANY>
+<!ATTLIST EvilSubDomain id ID #REQUIRED>
+
+<!ELEMENT FireSubDomain ANY>
+<!ATTLIST FireSubDomain id ID #REQUIRED>
+
+<!ELEMENT GlorySubDomain ANY>
+<!ATTLIST GlorySubDomain id ID #REQUIRED>
+
+<!ELEMENT GoodSubDomain ANY>
+<!ATTLIST GoodSubDomain id ID #REQUIRED>
+
+<!ELEMENT HealingSubDomain ANY>
+<!ATTLIST HealingSubDomain id ID #REQUIRED>
+
+<!ELEMENT KnowledgeSubDomain ANY>
+<!ATTLIST KnowledgeSubDomain id ID #REQUIRED>
+
+<!ELEMENT LawSubDomain ANY>
+<!ATTLIST LawSubDomain id ID #REQUIRED>
+
+<!ELEMENT LiberationSubDomain ANY>
+<!ATTLIST LiberationSubDomain id ID #REQUIRED>
+
+<!ELEMENT LuckSubDomain ANY>
+<!ATTLIST LuckSubDomain id ID #REQUIRED>
+
+<!ELEMENT MadnessSubDomain ANY>
+<!ATTLIST MadnessSubDomain id ID #REQUIRED>
+
+<!ELEMENT MagicSubDomain ANY>
+<!ATTLIST MagicSubDomain id ID #REQUIRED>
+
+<!ELEMENT NobilitySubDomain ANY>
+<!ATTLIST NobilitySubDomain id ID #REQUIRED>
+
+<!ELEMENT PlantSubDomain ANY>
+<!ATTLIST PlantSubDomain id ID #REQUIRED>
+
+<!ELEMENT ProtectionSubDomain ANY>
+<!ATTLIST ProtectionSubDomain id ID #REQUIRED>
+
+<!ELEMENT ReposeSubDomain ANY>
+<!ATTLIST ReposeSubDomain id ID #REQUIRED>
+
+<!ELEMENT RuneSubDomain ANY>
+<!ATTLIST RuneSubDomain id ID #REQUIRED>
+
+<!ELEMENT StrengthSubDomain ANY>
+<!ATTLIST StrengthSubDomain id ID #REQUIRED>
+
+<!ELEMENT SunSubDomain ANY>
+<!ATTLIST SunSubDomain id ID #REQUIRED>
+
+<!ELEMENT TravelSubDomain ANY>
+<!ATTLIST TravelSubDomain id ID #REQUIRED>
+
+<!ELEMENT TrickerySubDomain ANY>
+<!ATTLIST TrickerySubDomain id ID #REQUIRED>
+
+<!ELEMENT WarSubDomain ANY>
+<!ATTLIST WarSubDomain id ID #REQUIRED>
+
+<!ELEMENT WaterSubDomain ANY>
+<!ATTLIST WaterSubDomain id ID #REQUIRED>
+
+<!ELEMENT WeatherSubDomain ANY>
+<!ATTLIST WeatherSubDomain id ID #REQUIRED>
+
+<!ELEMENT Discovery ANY>
+<!ATTLIST Discovery id ID #REQUIRED>
+  <!ATTLIST Discovery Level CDATA #IMPLIED>
+]>
+
+
+<Pathfinder>
+	<Classes>
+    <Class id="Class22">Alchemist</Class>
+    <Class id="Class23">Cavalier</Class>
+    <Class id="Class24">Inquisitor</Class>
+    <Class id="Class25">Oracle</Class>
+    <Class id="Class26">Summoner</Class>
+    <Class id="Class27">Witch</Class>
+    <Class id="Class28">AntiPalidin</Class>
+	</Classes>
+	
+	  <!-- Cavalier Orders -->
+	<Orders>
+    <Order id="Order2">Order of the Cockatrice</Order>
+		<Order id="Order3">Order of the Dragon</Order>
+		<Order id="Order4">Order of the Lion</Order>
+		<Order id="Order5">Order of the Shield</Order>
+		<Order id="Order6">Order of the Star</Order>
+		<Order id="Order7">Order of the Sword</Order>
+	</Orders>
+	
+	  <!-- Oracle Mysteries -->
+	<Mysteries>
+    <Mystery id="Mysteries1">Battle</Mystery>
+    <Mystery id="Mysteries2">Bones</Mystery>
+    <Mystery id="Mysteries3">Flame</Mystery>
+    <Mystery id="Mysteries4">Heavens</Mystery>
+    <Mystery id="Mysteries5">Life</Mystery>
+    <Mystery id="Mysteries6">Lore</Mystery>
+    <Mystery id="Mysteries7">Nature</Mystery>
+    <Mystery id="Mysteries8">Stone</Mystery>
+    <Mystery id="Mysteries9">Waves</Mystery>
+    <Mystery id="Mysteries10">Wind</Mystery>
+	</Mysteries>
+	
+	  <!-- Witch Patreons -->
+	<Patreons>
+		<Patreon id="Patreon1">Agility</Patreon>
+    <Patreon id="Patreon2">Animals</Patreon>
+    <Patreon id="Patreon3">Deceptions</Patreon>
+    <Patreon id="Patreon4">Elements</Patreon>
+    <Patreon id="Patreon5">Endurance</Patreon>
+    <Patreon id="Patreon6">Plague</Patreon>
+    <Patreon id="Patreon7">Shadow</Patreon>
+    <Patreon id="Patreon8">Strength</Patreon>
+    <Patreon id="Patreon9">Transformation</Patreon>
+    <Patreon id="Patreon10">Trickery</Patreon>
+    <Patreon id="Patreon11">Water</Patreon>
+    <Patreon id="Patreon12">Wisdom</Patreon>
+	</Patreons>
+	
+	<BarbarianArches>
+    <BarbarianArchetype id="BarbarianArchetype1">Breaker</BarbarianArchetype>
+    <BarbarianArchetype id="BarbarianArchetype2">Brutal Pugilist</BarbarianArchetype>
+    <BarbarianArchetype id="BarbarianArchetype3">Drunken Brute</BarbarianArchetype>
+    <BarbarianArchetype id="BarbarianArchetype4">Elemental Kin</BarbarianArchetype>
+    <BarbarianArchetype id="BarbarianArchetype5">Hurler</BarbarianArchetype>
+    <BarbarianArchetype id="BarbarianArchetype6">Invulnerable Rager</BarbarianArchetype>
+    <BarbarianArchetype id="BarbarianArchetype7">Mounted Fury</BarbarianArchetype>
+    <BarbarianArchetype id="BarbarianArchetype8">Savage Barbarian</BarbarianArchetype>
+    <BarbarianArchetype id="BarbarianArchetype9">Superstitious,</BarbarianArchetype>
+    <BarbarianArchetype id="BarbarianArchetype10">Totem Warrior</BarbarianArchetype>
+	</BarbarianArches>
+	
+	<BardArches>
+    <BardArchetype id="BardArchetype3">Arcane Duelist</BardArchetype>
+    <BardArchetype id="BardArchetype4">Archivist</BardArchetype>
+    <BardArchetype id="BardArchetype5">Court Bard</BardArchetype>
+    <BardArchetype id="BardArchetype6">Detective</BardArchetype>
+    <BardArchetype id="BardArchetype7">Magician</BardArchetype>
+    <BardArchetype id="BardArchetype8">Sandman</BardArchetype>
+    <BardArchetype id="BardArchetype9">Savage Skald</BardArchetype>
+    <BardArchetype id="BardArchetype10">Sea Singer</BardArchetype>
+    <BardArchetype id="BardArchetype11">Street Performer</BardArchetype>
+	</BardArches>
+	
+	<ClericArches>
+    <ClericArchetype id="ClericArchetype1">Arcane Duelist</ClericArchetype>
+    <ClericArchetype id="ClericArchetype2">Archivist</ClericArchetype>
+    <ClericArchetype id="ClericArchetype3">Court Bard</ClericArchetype>
+    <ClericArchetype id="ClericArchetype4">Detective</ClericArchetype>
+    <ClericArchetype id="ClericArchetype5">Magician</ClericArchetype>
+    <ClericArchetype id="ClericArchetype6">Sandman</ClericArchetype>
+    <ClericArchetype id="ClericArchetype7">Savage Skald</ClericArchetype>
+    <ClericArchetype id="ClericArchetype8">Sea Singer</ClericArchetype>
+    <ClericArchetype id="ClericArchetype9">Street Performer</ClericArchetype>
+	</ClericArches>
+	
+	<DruidArches>
+    <DruidArchetype id="DruidArchetype4">Aquatic Druid</DruidArchetype>
+    <DruidArchetype id="DruidArchetype5">Arctic Druid</DruidArchetype>
+    <DruidArchetype id="DruidArchetype6">Blight Druid</DruidArchetype>
+    <DruidArchetype id="DruidArchetype7">Cave Druid</DruidArchetype>
+    <DruidArchetype id="DruidArchetype8">Desert Druid</DruidArchetype>
+    <DruidArchetype id="DruidArchetype9">Jungle Druid</DruidArchetype>
+    <DruidArchetype id="DruidArchetype10">Mountain Druid</DruidArchetype>
+    <DruidArchetype id="DruidArchetype11">Plains Druid</DruidArchetype>
+    <DruidArchetype id="DruidArchetype12">Swamp Druid</DruidArchetype>
+    <DruidArchetype id="DruidArchetype13">Urban Druid</DruidArchetype>
+    <DruidArchetype id="DruidArchetype14">Bear Shaman</DruidArchetype>
+    <DruidArchetype id="DruidArchetype15">Eagle Shaman</DruidArchetype>
+    <DruidArchetype id="DruidArchetype16">Lion Shaman</DruidArchetype>
+    <DruidArchetype id="DruidArchetype17">Serpent Shaman</DruidArchetype>
+    <DruidArchetype id="DruidArchetype18">Wolf Shaman</DruidArchetype>
+	</DruidArches>
+	
+	<FighterArches>
+    <FighterArchetype id="FighterArchetype3">Archer</FighterArchetype>
+    <FighterArchetype id="FighterArchetype4">Crossbowman</FighterArchetype>
+    <FighterArchetype id="FighterArchetype5">Free Hand Fighter</FighterArchetype>
+    <FighterArchetype id="FighterArchetype6">Mobile Fighter</FighterArchetype>
+    <FighterArchetype id="FighterArchetype7">Phalanx Soldier</FighterArchetype>
+    <FighterArchetype id="FighterArchetype8">Polearm Master</FighterArchetype>
+    <FighterArchetype id="FighterArchetype9">Roughrider</FighterArchetype>
+    <FighterArchetype id="FighterArchetype10">Savage Warrior</FighterArchetype>
+    <FighterArchetype id="FighterArchetype11">Shielded Fighter</FighterArchetype>
+    <FighterArchetype id="FighterArchetype12">Two-Handed Fighter</FighterArchetype>
+    <FighterArchetype id="FighterArchetype13">Two-Weapon Warrior</FighterArchetype>
+    <FighterArchetype id="FighterArchetype14">Weapon Master</FighterArchetype>
+	</FighterArches>
+		
+	<MonkArches>
+    <MonkArchetype id="MonkArchetype3">Drunken Master</MonkArchetype>
+    <MonkArchetype id="MonkArchetype4">Hungry Ghost Monk</MonkArchetype>
+    <MonkArchetype id="MonkArchetype5">Ki Mystic</MonkArchetype>
+    <MonkArchetype id="MonkArchetype6">Monk of the Empty Hand</MonkArchetype>
+    <MonkArchetype id="MonkArchetype7">Monk of the Four Winds</MonkArchetype>
+    <MonkArchetype id="MonkArchetype8">Monk of the Healing Hand</MonkArchetype>
+    <MonkArchetype id="MonkArchetype9">Monk of the Lotus</MonkArchetype>
+    <MonkArchetype id="MonkArchetype10">Monk of the Sacred Mountain</MonkArchetype>
+    <MonkArchetype id="MonkArchetype11">Weapon Adept</MonkArchetype>
+    <MonkArchetype id="MonkArchetype12">Zen Archer</MonkArchetype>
+	</MonkArches>
+	
+	<PaladinArches>
+    <PaladinArchetype id="PaladinArchetype3">Divine Defender</PaladinArchetype>
+    <PaladinArchetype id="PaladinArchetype4">Hospitaler</PaladinArchetype>
+    <PaladinArchetype id="PaladinArchetype5">Sacred Servant</PaladinArchetype>
+    <PaladinArchetype id="PaladinArchetype6">Shining Knight</PaladinArchetype>
+    <PaladinArchetype id="PaladinArchetype7">Undead Scourge</PaladinArchetype>
+    <PaladinArchetype id="PaladinArchetype8">Warrior of the Holy Light</PaladinArchetype>
+    <PaladinArchetype id="PaladinArchetype9">antipaladin</PaladinArchetype>
+	</PaladinArches>
+	
+	<RangerArches>
+    <RangerArchetype id="RangerArchetype4">Beast Master</RangerArchetype>
+    <RangerArchetype id="RangerArchetype5">Guide</RangerArchetype>
+    <RangerArchetype id="RangerArchetype6">Horse Lord</RangerArchetype>
+    <RangerArchetype id="RangerArchetype7">Infiltrator</RangerArchetype>
+    <RangerArchetype id="RangerArchetype8">Shapeshifter</RangerArchetype>
+    <RangerArchetype id="RangerArchetype9">Skirmisher</RangerArchetype>
+    <RangerArchetype id="RangerArchetype10">Spirit Ranger</RangerArchetype>
+    <RangerArchetype id="RangerArchetype11">Urban Ranger</RangerArchetype>
+	</RangerArches>
+	
+	<RangerCombateStyles>
+    <CombateStyle id="CombateStyle2">Crossbow</CombateStyle>
+    <CombateStyle id="CombateStyle3">Mounted Combat</CombateStyle>
+    <CombateStyle id="CombateStyle4">Natural Weapon</CombateStyle>
+    <CombateStyle id="CombateStyle5">Two-Handed Weapon</CombateStyle>
+    <CombateStyle id="CombateStyle6">Weapon and Shield</CombateStyle>
+	</RangerCombateStyles>
+	
+	<RogueArches>
+    <RogueArchetype id="RogueArchetype3">Acrobat</RogueArchetype>
+    <RogueArchetype id="RogueArchetype4">Burglar</RogueArchetype>
+    <RogueArchetype id="RogueArchetype5">Cutpurse</RogueArchetype>
+    <RogueArchetype id="RogueArchetype6">Investigator</RogueArchetype>
+    <RogueArchetype id="RogueArchetype7">Poisoner</RogueArchetype>
+    <RogueArchetype id="RogueArchetype8">Rake</RogueArchetype>
+    <RogueArchetype id="RogueArchetype9">Scout</RogueArchetype>
+    <RogueArchetype id="RogueArchetype10">Sniper</RogueArchetype>
+    <RogueArchetype id="RogueArchetype11">Spy</RogueArchetype>
+    <RogueArchetype id="RogueArchetype12">Swashbuckler</RogueArchetype>
+    <RogueArchetype id="RogueArchetype13">Thug</RogueArchetype>
+    <RogueArchetype id="RogueArchetype14">Trapsmith</RogueArchetype>
+	</RogueArches>
+	
+	<bloodlines>
+    <bloodline id="Bloodline11">Aquatic Bloodline</bloodline>
+    <bloodline id="Bloodline12">Boreal Bloodline</bloodline>
+    <bloodline id="Bloodline13">Deepearth Bloodline</bloodline>
+    <bloodline id="Bloodline14">Dreamspun Bloodline</bloodline>
+    <bloodline id="Bloodline15">Protean Bloodline</bloodline>
+    <bloodline id="Bloodline16">Serpentine Bloodline</bloodline>
+    <bloodline id="Bloodline17">Shadow Bloodline</bloodline>
+    <bloodline id="Bloodline18">Starsoul Bloodline</bloodline>
+    <bloodline id="Bloodline19">Stormborn Bloodline</bloodline>
+    <bloodline id="Bloodline20">Verdant Bloodline</bloodline>
+	</bloodlines>
+	
+	<schools>
+    <school id="School11">Air School</school>
+    <school id="School12">Earth School</school>
+    <school id="School13">Fire School</school>
+    <school id="School14">Water School</school>
+	</schools>
+	
+	<SubDomains>
+		<AirSubDomain id="D1SD1">Cloud</AirSubDomain>
+    <AirSubDomain id="D1SD2">Wind</AirSubDomain>
+
+    <AnimalSubDomain id="D2SD1">Feather</AnimalSubDomain>
+    <AnimalSubDomain id="D2SD2">Fur</AnimalSubDomain>
+
+    <ArtificeSubDomain id="D3SD1">Construct</ArtificeSubDomain>
+    <ArtificeSubDomain id="D3SD2">Toil</ArtificeSubDomain>
+
+    <ChaosSubDomain id="D4SD1">Azata</ChaosSubDomain>
+    <ChaosSubDomain id="D4SD2">Demon</ChaosSubDomain>
+    <ChaosSubDomain id="D4SD3">Protean</ChaosSubDomain>
+
+    <CharmSubDomain id="D5SD1">Love</CharmSubDomain>
+    <CharmSubDomain id="D5SD2">Lust</CharmSubDomain>
+
+    <CommunitySubDomain id="D6SD1">Family</CommunitySubDomain>
+    <CommunitySubDomain id="D6SD2">Home</CommunitySubDomain>
+
+    <DarknessSubDomain id="D7SD1">Loss</DarknessSubDomain>
+    <DarknessSubDomain id="D7SD2">Night</DarknessSubDomain>
+
+    <DeathSubDomain id="D8SD1">Murder</DeathSubDomain>
+    <DeathSubDomain id="D8SD2">Undead</DeathSubDomain>
+
+    <DestructionSubDomain id="D9SD1">Catastrophe</DestructionSubDomain>
+    <DestructionSubDomain id="D9SD2">Rage</DestructionSubDomain>
+
+    <EarthSubDomain id="D10SD1">Caves</EarthSubDomain>
+    <EarthSubDomain id="D10SD2">Metal</EarthSubDomain>
+
+    <EvilSubDomain id="D11SD1">Daemon</EvilSubDomain>
+    <EvilSubDomain id="D11SD2">Demon</EvilSubDomain>
+    <EvilSubDomain id="D11SD3">Devil</EvilSubDomain>
+
+    <FireSubDomain id="D12SD1">Ash</FireSubDomain>
+    <FireSubDomain id="D12SD2">Smoke</FireSubDomain>
+
+    <GlorySubDomain id="D13SD1">Heroism</GlorySubDomain>
+    <GlorySubDomain id="D13SD2">Honor</GlorySubDomain>
+
+    <GoodSubDomain id="D14SD1">Agathion</GoodSubDomain>
+    <GoodSubDomain id="D14SD2">Archon</GoodSubDomain>
+    <GoodSubDomain id="D14SD3">Azata</GoodSubDomain>
+
+    <HealingSubDomain id="D15SD1">Restoration</HealingSubDomain>
+    <HealingSubDomain id="D15SD2">Resurrection</HealingSubDomain>
+
+    <KnowledgeSubDomain id="D16SD1">Memory</KnowledgeSubDomain>
+    <KnowledgeSubDomain id="D16SD2">Thought</KnowledgeSubDomain>
+
+    <LawSubDomain id="D17SD1">Archon</LawSubDomain>
+    <LawSubDomain id="D17SD2">Devil</LawSubDomain>
+    <LawSubDomain id="D17SD3">Inevitable</LawSubDomain>
+
+    <LiberationSubDomain id="D18SD1">Freedom</LiberationSubDomain>
+    <LiberationSubDomain id="D18SD2">Revolution</LiberationSubDomain>
+
+    <LuckSubDomain id="D19SD1">Curse</LuckSubDomain>
+    <LuckSubDomain id="D19SD2">Fate</LuckSubDomain>
+
+    <MadnessSubDomain id="D20SD1">Insanity</MadnessSubDomain>
+    <MadnessSubDomain id="D20SD2">Nightmare</MadnessSubDomain>
+
+    <MagicSubDomain id="D21SD1">Arcane</MagicSubDomain>
+    <MagicSubDomain id="D21SD2">Divine</MagicSubDomain>
+
+    <NobilitySubDomain id="D22SD1">Leadership</NobilitySubDomain>
+    <NobilitySubDomain id="D22SD2">Martyr</NobilitySubDomain>
+
+    <PlantSubDomain id="D23SD1">Decay</PlantSubDomain>
+    <PlantSubDomain id="D23SD2">Growth</PlantSubDomain>
+
+    <ProtectionSubDomain id="D24SD1">Defense</ProtectionSubDomain>
+    <ProtectionSubDomain id="D24SD2">Purity</ProtectionSubDomain>
+
+    <ReposeSubDomain id="D25SD1">Ancestors</ReposeSubDomain>
+    <ReposeSubDomain id="D25SD2">Souls</ReposeSubDomain>
+
+    <RuneSubDomain id="D26SD1">Language</RuneSubDomain>
+    <RuneSubDomain id="D26SD2">Wards</RuneSubDomain>
+
+    <StrengthSubDomain id="D27SD1">Ferocity</StrengthSubDomain>
+    <StrengthSubDomain id="D27SD2">Resolve</StrengthSubDomain>
+
+    <SunSubDomain id="D28SD1">Day</SunSubDomain>
+    <SunSubDomain id="D28SD2">Light</SunSubDomain>
+
+    <TravelSubDomain id="D29SD1">Exploration</TravelSubDomain>
+    <TravelSubDomain id="D29SD2">Trade</TravelSubDomain>
+
+    <TrickerySubDomain id="D30SD1">Deception</TrickerySubDomain>
+    <TrickerySubDomain id="D30SD2">Thievery</TrickerySubDomain>
+
+    <WarSubDomain id="D31SD1">Blood</WarSubDomain> 
+		<WarSubDomain id="D31SD2">Tactics</WarSubDomain>
+
+    <WaterSubDomain id="D32SD1">Ice</WaterSubDomain>
+    <WaterSubDomain id="D32SD2">Oceans</WaterSubDomain>
+
+    <WeatherSubDomain id="D33SD1">Seasons</WeatherSubDomain>
+    <WeatherSubDomain id="D33SD2"> Storms</WeatherSubDomain>
+	</SubDomains>
+	
+	<!-- Alchemist's discoverise-->
+	<Discoveries>
+    <Discovery id="Discovery11">Acid bomb</Discovery>
+    <Discovery id="Discovery12">Combine extracts</Discovery>
+    <Discovery id="Discovery13">Concentrate poison</Discovery>
+    <Discovery id="Discovery14">Concussive bomb</Discovery>
+    <Discovery id="Discovery15">Delayed bomb</Discovery>
+    <Discovery id="Discovery16">Dilution</Discovery>
+    <Discovery id="Discovery17">Dispelling Bomb</Discovery>
+    <Discovery id="Discovery18">Elixir of life</Discovery>
+    <Discovery id="Discovery19">Enhance potion</Discovery>
+    <Discovery id="Discovery21">Eternal potion</Discovery>
+    <Discovery id="Discovery22">Explosive bomb</Discovery>
+    <Discovery id="Discovery23">Extend potion</Discovery>
+    <Discovery id="Discovery24">Fast bombs</Discovery>
+    <Discovery id="Discovery25">Feral mutagen</Discovery>
+    <Discovery id="Discovery26">Force bomb</Discovery>
+    <Discovery id="Discovery27">Frost bomb</Discovery>
+    <Discovery id="Discovery28">Grand mutagen</Discovery>
+    <Discovery id="Discovery29">Greater mutagen</Discovery>
+    <Discovery id="Discovery30">Infuse mutagen</Discovery>
+    <Discovery id="Discovery31">Inferno bomb</Discovery>
+    <Discovery id="Discovery32">Infusion</Discovery>
+    <Discovery id="Discovery33">Madness bomb</Discovery>
+    <Discovery id="Discovery34">Poison bomb</Discovery>
+    <Discovery id="Discovery35">Precise bombs</Discovery>
+    <Discovery id="Discovery36">Shock bomb</Discovery>
+    <Discovery id="Discovery37">Smoke bomb</Discovery>
+    <Discovery id="Discovery38">Sticky bomb</Discovery>
+    <Discovery id="Discovery39">Sticky poison</Discovery>
+    <Discovery id="Discovery40">Stink bomb</Discovery>
+   
+    <Discovery id="Discovery41" Level = "20">Awakened Intellect</Discovery>
+    <Discovery id="Discovery42" Level = "20">Eternal Youth</Discovery>
+    <Discovery id="Discovery43" Level = "20">Fast Healing</Discovery>
+    <Discovery id="Discovery44" Level = "20">Philosopher’s Stone</Discovery>
+    <Discovery id="Discovery45" Level = "20">Poison Touch</Discovery>
+    <Discovery id="Discovery46" Level = "20">True Mutagen</Discovery>
+	</Discoveries>
+</Pathfinder>

@@ -1,0 +1,104 @@
+c:\users\jonah white\documents\visual studio 2015\Projects\RPG character sheet randomizer\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe.config
+c:\users\jonah white\documents\visual studio 2015\Projects\RPG character sheet randomizer\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe
+c:\users\jonah white\documents\visual studio 2015\Projects\RPG character sheet randomizer\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.pdb
+c:\users\jonah white\documents\visual studio 2015\Projects\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.csprojResolveAssemblyReference.cache
+c:\users\jonah white\documents\visual studio 2015\Projects\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.Form1.resources
+c:\users\jonah white\documents\visual studio 2015\Projects\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.Properties.Resources.resources
+c:\users\jonah white\documents\visual studio 2015\Projects\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.csproj.GenerateResource.Cache
+c:\users\jonah white\documents\visual studio 2015\Projects\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.exe
+c:\users\jonah white\documents\visual studio 2015\Projects\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.pdb
+E:\RPG character sheet randomizer\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe.config
+E:\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.exe
+E:\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.pdb
+E:\RPG character sheet randomizer\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe
+E:\RPG character sheet randomizer\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.pdb
+E:\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.csprojResolveAssemblyReference.cache
+E:\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.Properties.Resources.resources
+E:\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.csproj.GenerateResource.Cache
+F:\RPG character sheet randomizer\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe.config
+F:\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.exe
+F:\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.pdb
+F:\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.csprojResolveAssemblyReference.cache
+F:\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.RpgRndCharGen.resources
+F:\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.Properties.Resources.resources
+F:\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.csproj.GenerateResource.Cache
+F:\RPG character sheet randomizer\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe
+F:\RPG character sheet randomizer\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.pdb
+E:\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.RpgRndCharGen.resources
+F:\RPG character sheet randomizer\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe.manifest
+F:\RPG character sheet randomizer\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.application
+F:\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.exe.manifest
+F:\RPG character sheet randomizer\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.application
+E:\Users\Jonah White\My Documents\Past Versions of Randomizer\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe.config
+E:\Users\Jonah White\My Documents\Past Versions of Randomizer\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe.manifest
+E:\Users\Jonah White\My Documents\Past Versions of Randomizer\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.application
+E:\Users\Jonah White\My Documents\Past Versions of Randomizer\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe
+E:\Users\Jonah White\My Documents\Past Versions of Randomizer\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.pdb
+E:\Users\Jonah White\My Documents\Past Versions of Randomizer\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.csprojResolveAssemblyReference.cache
+E:\Users\Jonah White\My Documents\Past Versions of Randomizer\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.RpgRndCharGen.resources
+E:\Users\Jonah White\My Documents\Past Versions of Randomizer\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.Properties.Resources.resources
+E:\Users\Jonah White\My Documents\Past Versions of Randomizer\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.csproj.GenerateResource.Cache
+E:\Users\Jonah White\My Documents\Past Versions of Randomizer\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.exe.manifest
+E:\Users\Jonah White\My Documents\Past Versions of Randomizer\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.application
+E:\Users\Jonah White\My Documents\Past Versions of Randomizer\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.exe
+E:\Users\Jonah White\My Documents\Past Versions of Randomizer\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.pdb
+E:\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe.config
+E:\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe.manifest
+E:\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.application
+E:\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe
+E:\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.pdb
+E:\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.csprojResolveAssemblyReference.cache
+E:\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.RpgRndCharGen.resources
+E:\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.Properties.Resources.resources
+E:\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.csproj.GenerateResource.Cache
+E:\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.exe.manifest
+E:\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.application
+E:\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.exe
+E:\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.pdb
+C:\Users\Jonah White\Desktop\Moster USB\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe.config
+C:\Users\Jonah White\Desktop\Moster USB\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe.manifest
+C:\Users\Jonah White\Desktop\Moster USB\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.application
+C:\Users\Jonah White\Desktop\Moster USB\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe
+C:\Users\Jonah White\Desktop\Moster USB\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.pdb
+C:\Users\Jonah White\Desktop\Moster USB\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.csprojResolveAssemblyReference.cache
+C:\Users\Jonah White\Desktop\Moster USB\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.RpgRndCharGen.resources
+C:\Users\Jonah White\Desktop\Moster USB\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.Properties.Resources.resources
+C:\Users\Jonah White\Desktop\Moster USB\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.csproj.GenerateResource.Cache
+C:\Users\Jonah White\Desktop\Moster USB\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.exe.manifest
+C:\Users\Jonah White\Desktop\Moster USB\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.application
+C:\Users\Jonah White\Desktop\Moster USB\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.exe
+C:\Users\Jonah White\Desktop\Moster USB\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.pdb
+C:\Users\legoj\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe.config
+C:\Users\legoj\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe.manifest
+C:\Users\legoj\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.application
+C:\Users\legoj\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe
+C:\Users\legoj\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.pdb
+C:\Users\legoj\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.csprojResolveAssemblyReference.cache
+C:\Users\legoj\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.RpgRndCharGen.resources
+C:\Users\legoj\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.Properties.Resources.resources
+C:\Users\legoj\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.csproj.GenerateResource.Cache
+C:\Users\legoj\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.exe.manifest
+C:\Users\legoj\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.application
+C:\Users\legoj\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.exe
+C:\Users\legoj\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.pdb
+C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe.config
+C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe.manifest
+C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.application
+C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.exe
+C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\RPG character sheet randomizer.pdb
+C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.csprojResolveAssemblyReference.cache
+C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.RpgRndCharGen.resources
+C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.Properties.Resources.resources
+C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.csproj.GenerateResource.Cache
+C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.exe.manifest
+C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.application
+C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.exe
+C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG character sheet randomizer.pdb
+C:\Users\legoj\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\legoj\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\System.Json.dll
+C:\Users\legoj\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\System.Json.dll
+C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jonah White\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.ErrorReportingForm.resources
+C:\Users\legoj\Dropbox\jonah only\Current Unpublished Version\RPG character sheet randomizer\obj\Debug\RPG_character_sheet_randomizer.ErrorReportingForm.resources

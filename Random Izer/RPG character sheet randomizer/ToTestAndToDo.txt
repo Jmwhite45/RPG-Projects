@@ -1,0 +1,33 @@
+Random Izer
+
+to test
+----
+everything once the convertion from xml to json is finished. *intense sigh*
+
+sub background errors. not the correct sub background for the background.
+
+
+
+
+to do
+------
+add lv requirements to the sub classes that need them
+
+
+
+IN THE MIDDLE OF
+-----------------
+
+
+Books to add
+-------------
+DnD 5e:
+xanthars guide to everything
+TOMB OF ANNIHILATION
+TALES FROM THE YAWNING PORTAL
+STORM KING'S THUNDER
+CURSE OF STRAHD
+OUT OF THE ABYSS
+PRINCES OF THE APOCALYPSE
+DUNGEON MASTER'S GUIDE
+THE RISE OF TIAMAT

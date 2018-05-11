@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Pathfinder [
+
+  <!ELEMENT Pathfinder ANY>
+  
+  <!ELEMENT Classes ANY>
+    <!ELEMENT Class ANY>
+      <!ATTLIST Class id ID #REQUIRED>
+
+    <!ELEMENT Races ANY>
+      <!ELEMENT Race ANY>
+        <!ATTLIST Race id ID #REQUIRED>
+  
+  <!ELEMENT Domains ANY>
+     <!ELEMENT Domain ANY>
+        <!ATTLIST Domain id ID #REQUIRED>
+  
+  <!ELEMENT Bloodlines ANY>
+  <!ELEMENT Bloodline ANY>
+  <!ATTLIST Bloodline id ID #REQUIRED>
+
+  <!ELEMENT SubBloodlines ANY>
+  <!ELEMENT SubBloodline ANY>
+  <!ATTLIST SubBloodline id ID #REQUIRED>
+  
+  <!ELEMENT Schools ANY>
+  <!ELEMENT School ANY>
+  <!ATTLIST School id ID #REQUIRED>
+
+  <!ELEMENT Deities ANY>
+  <!ELEMENT Deity ANY>
+  <!ATTLIST Deity id ID #REQUIRED>
+
+  <!ELEMENT RagePowers ANY>
+  <!ELEMENT RagePower ANY>
+  <!ATTLIST RagePower id ID #REQUIRED>
+  <!ATTLIST RagePower Max CDATA #IMPLIED>
+  <!ATTLIST RagePower Level CDATA #IMPLIED>
+  <!ATTLIST RagePower PowerPreReq CDATA #IMPLIED>
+
+
+  <!ELEMENT EnergyTypes ANY>
+  <!ELEMENT EnergyType ANY>
+  <!ATTLIST EnergyType id ID #REQUIRED>
+
+  <!ELEMENT NatureBonds ANY>
+  <!ELEMENT Nature ANY>
+  <!ATTLIST Nature id ID #REQUIRED>
+  <!ATTLIST Nature name CDATA #IMPLIED>
+  <!ELEMENT subBond ANY>
+  <!ATTLIST subBond id ID #REQUIRED>
+  <!ELEMENT Animals ANY>
+  <!ATTLIST Animals id ID #REQUIRED>
+  <!ATTLIST Animals name CDATA #IMPLIED>
+  <!ELEMENT animal ANY>
+  <!ATTLIST animal id ID #REQUIRED>
+
+  <!ELEMENT WeaponTrainings ANY>
+  <!ELEMENT Weapon ANY>
+  <!ATTLIST Weapon id ID #REQUIRED>
+
+  <!ELEMENT Mercies ANY>
+  <!ELEMENT Mercy ANY>
+  <!ATTLIST Mercy id ID #REQUIRED>
+  <!ATTLIST Mercy Level CDATA #IMPLIED>
+
+  <!ELEMENT DivineBonds ANY>
+  <!ELEMENT DivineBond ANY>
+  <!ATTLIST DivineBond id ID #REQUIRED>
+
+  <!ELEMENT RangerFavoredEnemies ANY>
+  <!ELEMENT enemy ANY>
+  <!ATTLIST enemy id ID #REQUIRED>
+
+  <!ELEMENT RangerFavoredTerrain ANY>
+  <!ELEMENT Terrain ANY>
+  <!ATTLIST Terrain id ID #REQUIRED>
+
+  <!ELEMENT HuntersBonds ANY>
+  <!ELEMENT HBonds ANY>
+  <!ATTLIST HBonds id ID #REQUIRED>
+  <!ELEMENT RangerAnimal ANY>
+  <!ATTLIST RangerAnimal id ID #REQUIRED>
+
+  ]>
+
+  <Pathfinder>
+  <Classes>
+    <Class id="Class1">Barbarian</Class>
+    <Class id="Class2">Bard</Class>
+    <Class id="Class3">cleric</Class>
+    <Class id="Class4">Druid</Class>
+    <Class id="Class5">Fighter</Class>
+    <Class id="Class6">Monk</Class>
+    <Class id="Class7">Palidin</Class>
+    <Class id="Class8">Ranger</Class>
+    <Class id="Class9">Rogue</Class>
+    <Class id="Class10">Sorcerer</Class>
+    <Class id="Class11">Wizard</Class>
+  </Classes>
+
+  <Races>
+    <Race id="Race1">Dwarf</Race>
+    <Race id="Race2">Elf</Race>
+    <Race id="Race3">Gnome</Race>
+    <Race id="Race4">Half-Elf</Race>
+    <Race id="Race5">Half-Orc</Race>
+    <Race id="Race6">Halfling</Race>
+    <Race id="Race7">Human</Race>
+  </Races>
+
+  <!-- Cleric and Warpriest's Domains -->
+  <Domains>
+    <Domain id="Domain1">Air Domain</Domain>
+    <Domain id="Domain2">Animal Domain</Domain>
+    <Domain id="Domain3">Artifice Domain</Domain>
+    <Domain id="Domain4">Chaos Domain</Domain>
+    <Domain id="Domain5">Charm Domain</Domain>
+    <Domain id="Domain6">Community Domain</Domain>
+    <Domain id="Domain7">Darkness Domain</Domain>
+    <Domain id="Domain8">Death Domain</Domain>
+    <Domain id="Domain9">Destruction Domain</Domain>
+    <Domain id="Domain10">Earth Domain</Domain>
+    <Domain id="Domain11">Evil Domain</Domain>
+    <Domain id="Domain12">Fire Domain</Domain>
+    <Domain id="Domain13">Glory Domain</Domain>
+    <Domain id="Domain14">Good Domain</Domain>
+    <Domain id="Domain15">Healing Domain</Domain>
+    <Domain id="Domain16">Knowledge Domain</Domain>
+    <Domain id="Domain17">Law Domain</Domain>
+    <Domain id="Domain18">Liberation Domain</Domain>
+    <Domain id="Domain19">Luck Domain</Domain>
+    <Domain id="Domain20">Madness Domain</Domain>
+    <Domain id="Domain21">Magic Domain</Domain>
+    <Domain id="Domain22">Nobility Domain</Domain>
+    <Domain id="Domain23">Plant Domain</Domain>
+    <Domain id="Domain24">Protection Domain</Domain>
+    <Domain id="Domain25">Repose Domain</Domain>
+    <Domain id="Domain26">Rune Domain</Domain>
+    <Domain id="Domain27">Strength Domain</Domain>
+    <Domain id="Domain28">Sun Domain</Domain>
+    <Domain id="Domain29">Travel Domain</Domain>
+    <Domain id="Domain30">Trickery Domain</Domain>
+    <Domain id="Domain31">War Domain</Domain>
+    <Domain id="Domain32">Water</Domain>
+    <Domain id="Domain33">Weather Domain</Domain>
+  </Domains>
+
+  <!-- Sorcerer and Bloodrager Bloodlines -->
+  <Bloodlines>
+    <Bloodline id="Bloodline1">Aberrant</Bloodline>
+    <Bloodline id="Bloodline2">Aberrant</Bloodline>
+    <Bloodline id="Bloodline3">Arcane</Bloodline>
+    <Bloodline id="Bloodline4">Celestial</Bloodline>
+    <Bloodline id="Bloodline5">Destined</Bloodline>
+    <Bloodline id="Bloodline6">Draconic</Bloodline>
+    <Bloodline id="Bloodline7">Elemental</Bloodline>
+    <Bloodline id="Bloodline8">Fey</Bloodline>
+    <Bloodline id="Bloodline9">Infernal</Bloodline>
+    <Bloodline id="Bloodline10">Undead</Bloodline>
+  </Bloodlines>
+
+  <!-- SubBloodlines for above Bloodlines -->
+  <SubBloodlines>
+    <SubBloodline id="SubBloodline1">Black Dragon</SubBloodline>
+    <SubBloodline id="SubBloodline2">Blue Dragon</SubBloodline>
+    <SubBloodline id="SubBloodline3">Green Dragon</SubBloodline>
+    <SubBloodline id="SubBloodline4">Red Dragon</SubBloodline>
+    <SubBloodline id="SubBloodline5">White Dragon</SubBloodline>
+    <SubBloodline id="SubBloodline6">Brass Dragon</SubBloodline>
+    <SubBloodline id="SubBloodline7">Bronze Dragon</SubBloodline>
+    <SubBloodline id="SubBloodline8">Copper Dragon</SubBloodline>
+    <SubBloodline id="SubBloodline9">Gold Dragon</SubBloodline>
+    <SubBloodline id="SubBloodline10">silver Dragon</SubBloodline>
+    <SubBloodline id="SubBloodline11">Air</SubBloodline>
+    <SubBloodline id="SubBloodline12">Earth</SubBloodline>
+    <SubBloodline id="SubBloodline13">Fire</SubBloodline>
+    <SubBloodline id="SubBloodline14">Water</SubBloodline>
+  </SubBloodlines>
+
+  <!-- Wizard Schools -->
+  <Schools>
+    <School id="School1">Arcane School</School>
+    <School id="School2">Abjuration School</School>
+    <School id="School3">Conjuration School</School>
+    <School id="School4">Divination School</School>
+    <School id="School5">Enchantment School</School>
+    <School id="School6">Evocation School</School>
+    <School id="School7">Illusion School</School>
+    <School id="School8">Necromancy School</School>
+    <School id="School9">Transmutation School</School>
+    <School id="School10">Universalist School</School>
+  </Schools>
+
+  <Deities>
+    <Deity id="Deity1">Erastil</Deity>
+    <Deity id="Deity2">Iomedae</Deity>
+    <Deity id="Deity3">Torag</Deity>
+    <Deity id="Deity4">Sarenrae</Deity>
+    <Deity id="Deity5">Shelyn</Deity>
+    <Deity id="Deity6">Desna</Deity>
+    <Deity id="Deity7">Cayden Cailean</Deity>
+    <Deity id="Deity8">Abadar</Deity>
+    <Deity id="Deity9">Irori</Deity>
+    <Deity id="Deity10">Gozreh</Deity>
+    <Deity id="Deity11">Pharasma</Deity>
+    <Deity id="Deity12">Nethys</Deity>
+    <Deity id="Deity13">Gorum</Deity>
+    <Deity id="Deity14">Calistria</Deity>
+    <Deity id="Deity15">Asmodeus</Deity>
+    <Deity id="Deity16">Zon-Kuthon</Deity>
+    <Deity id="Deity17">Urgathoa</Deity>
+    <Deity id="Deity18">Norgorber</Deity>
+    <Deity id="Deity19">Lamashtu</Deity>
+    <Deity id="Deity20">Rovagug</Deity>
+  </Deities>
+
+  <RagePowers>
+    <RagePower id="RagePower1">Animal Fury</RagePower>
+    <RagePower id="RagePower2" Level="8">Clear Mind</RagePower>
+    <RagePower id="RagePower3" Level="12">Fearless Rage</RagePower>
+    <RagePower id="RagePower4">Guarded Stance</RagePower>
+    <RagePower id="RagePower5" Max ="3" Level="8">Increased Damage Reduction</RagePower>
+    <RagePower id="RagePower6" Level="8">Internal Fortitude</RagePower>
+    <RagePower id="RagePower7">Intimidating Glare</RagePower>
+    <RagePower id="RagePower8">Knockback</RagePower>
+    <RagePower id="RagePower9">Low-Light Vision</RagePower>
+    <RagePower id="RagePower10" Level="12">Mighty Swing</RagePower>
+    <RagePower id="RagePower11">Moment of Clarity</RagePower>
+    <RagePower id="RagePower12">Night Vision</RagePower>
+    <RagePower id="RagePower13">No Escape</RagePower>
+    <RagePower id="RagePower14">Powerful Blow</RagePower>
+    <RagePower id="RagePower15">Quick Ref lexes</RagePower>
+    <RagePower id="RagePower16">Raging Climber</RagePower>
+    <RagePower id="RagePower17">Raging Leaper</RagePower>
+    <RagePower id="RagePower18">Raging Swimmer</RagePower>
+    <RagePower id="RagePower19" Level="4">Renewed Vigor</RagePower>
+    <RagePower id="RagePower20">Rolling Dodge</RagePower>
+    <RagePower id="RagePower21">Roused Anger</RagePower>
+    <RagePower id="RagePower22">Scent</RagePower>
+    <RagePower id="RagePower23">Strength Surge</RagePower>
+    <RagePower id="RagePower24">Superstition</RagePower>
+    <RagePower id="RagePower25">Surprise Accuracy</RagePower>
+    <RagePower id="RagePower26" Level="8" Max="3">Swift Foot</RagePower>
+    <RagePower id="RagePower27" Level="8">Terrifying Howl</RagePower>
+    <RagePower id="RagePower28" Level="8">Unexpected Strike</RagePower>
+  </RagePowers>
+
+  <EnergyTypes>
+    <EnergyType id="EnergyTypes01">Acid</EnergyType>
+    <EnergyType id="EnergyTypes02">Cold</EnergyType>
+    <EnergyType id="EnergyTypes03">Fire</EnergyType>
+    <EnergyType id="EnergyTypes04">Electricity</EnergyType>
+  </EnergyTypes>
+
+  <NatureBonds>
+    <Nature id="Bond1" name="Bond with Nature">
+      <subBond id="SubBond1">Air Domain</subBond>
+      <subBond id="SubBond2">Animal Domain</subBond>
+      <subBond id="SubBond3">Earth Domain</subBond>
+      <subBond id="SubBond4">Fire Domain</subBond>
+      <subBond id="SubBond5">Plant Domain</subBond>
+      <subBond id="SubBond6">Water Domain</subBond>
+      <subBond id="SubBond7">Weather Domain</subBond>
+    </Nature>
+    <Animals id="Bond2" name="Bond with a Animal">
+      <animal id="Animal1">Badger</animal>
+      <animal id="Animal2">Bird</animal>
+      <animal id="Animal3">Camel</animal>
+      <animal id="Animal4">Cat, Small</animal>
+      <animal id="Animal5">Boar</animal>
+      <animal id="Animal6">Dog</animal>
+      <animal id="Animal7">Horse</animal>
+      <animal id="Animal8">Pony</animal>
+      <animal id="Animal9">snake, constrictor</animal>
+      <animal id="Animal10">snake, Viper</animal>
+      <animal id="Animal11">Wolf</animal>
+      <animal id="Animal12">Ape</animal>
+      <animal id="Animal13">Bear</animal>
+      <animal id="Animal14">Cat, Big</animal>
+      <animal id="Animal15">Crocodile</animal>
+      <animal id="Animal16">Dinosaur</animal>
+      <animal id="Animal17">Shark</animal>    
+    </Animals>
+  </NatureBonds>
+
+  <WeaponTrainings>
+    <Weapon id="Weapon1">Axes</Weapon>
+    <Weapon id="Weapon2">Blades, Heavy</Weapon>
+    <Weapon id="Weapon3">Blades, Light</Weapon>
+    <Weapon id="Weapon4">Bows</Weapon>
+    <Weapon id="Weapon5">Close</Weapon>
+    <Weapon id="Weapon6">Crossbows</Weapon>
+    <Weapon id="Weapon7">Double</Weapon>
+    <Weapon id="Weapon8">Flails</Weapon>
+    <Weapon id="Weapon9">Hammers</Weapon>
+    <Weapon id="Weapon10">Monk</Weapon>
+    <Weapon id="Weapon11">Natural</Weapon>
+    <Weapon id="Weapon12">Polearms</Weapon>
+    <Weapon id="Weapon13">spears</Weapon>
+    <Weapon id="Weapon14">Thrown</Weapon>
+  </WeaponTrainings>
+
+    <Mercies>
+      <Mercy id="Mercy1" Level="3">Fatigue</Mercy>
+      <Mercy id="Mercy2" Level="3">Shaken</Mercy>
+      <Mercy id="Mercy3" Level="3">Sickened</Mercy>
+
+      <Mercy id="Mercy4" Level="6">Dazed</Mercy>
+      <Mercy id="Mercy5" Level="6">Diseased</Mercy>
+      <Mercy id="Mercy6" Level="6">Staggered</Mercy>
+
+      <Mercy id="Mercy7" Level="9">Cursed</Mercy>
+      <Mercy id="Mercy8" Level="9">Exausted</Mercy>
+      <Mercy id="Mercy9" Level="9">Frighted</Mercy>
+      <Mercy id="Mercy10" Level="9">Nauseated</Mercy>
+      <Mercy id="Mercy11" Level="9">Poisoned</Mercy>
+
+      <Mercy id="Mercy12" Level="12">Blinded</Mercy>
+      <Mercy id="Mercy13" Level="12">Deafed</Mercy>
+      <Mercy id="Mercy14" Level="12">Paralyzed</Mercy>
+      <Mercy id="Mercy15" Level="12">Stunned</Mercy>
+    </Mercies>
+
+    <DivineBonds>
+      <DivineBond id="DivineBond1">Bond with your Deity</DivineBond>
+      <DivineBond id="DivineBond2">Bond with a Animal</DivineBond>
+    </DivineBonds>
+  
+  <RangerFavoredEnemies>
+    <enemy id="Enemy1">Aberration</enemy>
+    <enemy id="Enemy2">Animal</enemy>
+    <enemy id="Enemy3">Construct</enemy>
+    <enemy id="Enemy4">Dragon</enemy>
+    <enemy id="Enemy5">Fey</enemy>
+    <enemy id="Enemy6">Humanoid(Aquatic)</enemy>
+    <enemy id="Enemy7">Humanoid(Dwarf)</enemy>
+    <enemy id="Enemy8">Humanoid(Giant)</enemy>
+    <enemy id="Enemy9">Humanoid(Goblinoid)</enemy>
+    <enemy id="Enemy10">Humanoid(Gnoll)</enemy>
+    <enemy id="Enemy11">Humanoid(Gnome)</enemy>
+    <enemy id="Enemy12">Humanoid(Halfling)</enemy>
+    <enemy id="Enemy13">Humanoid(human)</enemy>
+    <enemy id="Enemy14">Humanoid(orc)</enemy>
+    <enemy id="Enemy15">Humanoid(Reptilian)</enemy>
+    <enemy id="Enemy16">Humanoid(elf)</enemy>
+  </RangerFavoredEnemies>
+
+    <RangerFavoredTerrain>
+      <Terrain id="Terrain1">Cold</Terrain>
+      <Terrain id="Terrain2">Desert</Terrain>
+      <Terrain id="Terrain3">Forest</Terrain>
+      <Terrain id="Terrain4">Jungle</Terrain>
+      <Terrain id="Terrain5">Mountain</Terrain>
+      <Terrain id="Terrain6">Plains</Terrain>
+      <Terrain id="Terrain7">Planes</Terrain>
+      <Terrain id="Terrain8">Swamp</Terrain>
+      <Terrain id="Terrain9">UnderGround</Terrain>
+      <Terrain id="Terrain10">Urban</Terrain>
+      <Terrain id="Terrain11">Water</Terrain>
+    </RangerFavoredTerrain>
+
+    <HuntersBonds>
+     <HBonds id="HB1">Bond with his companions</HBonds>
+     <HBonds id="HB2">Bond with an Animal Companion</HBonds>
+        <RangerAnimal id="Animal18">DireRat</RangerAnimal>
+    </HuntersBonds>
+</Pathfinder>

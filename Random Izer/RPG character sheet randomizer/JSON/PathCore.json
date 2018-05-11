@@ -1,0 +1,208 @@
+﻿{
+  "Class": [ "Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Palidin", "Ranger", "Rogue", "Sorcerer", "Wizard" ],
+  "Race": [ "Dwarf", "Elf", "Gnome", "Half-elf", "Half-Orc", "Halfling", "Human" ],
+
+  "Barbarian": [
+    "Animal Fury",
+    "Clear Mind",
+    "Fearless Rage",
+    "Guarded Stance",
+    "Increased Damage Reduction",
+    "Internal Fortitude",
+    "Intimidating Glare",
+    "Knockback",
+    "Low-Light Vision",
+    "Mighty Swing",
+    "Moment of Clarity",
+    "Night Vision",
+    "No Escape",
+    "Powerful Blow",
+    "Quick Ref lexes",
+    "Raging Climber",
+    "Raging Leaper",
+    "Raging Swimmer",
+    "Renewed Vigor",
+    "Rolling Dodge",
+    "Roused Anger",
+    "Scent",
+    "Strength Surge",
+    "Superstition",
+    "Surprise Accuracy",
+    "Swift Foot",
+    "Terrifying Howl",
+    "Unexpected Strike"
+  ],
+
+  "Bard": [ "Act", "Comedy", "Dance", "Keyboard Instruments", "Oratory", "Percussion", "Sing", "String", "Wind" ],
+  "Cleric": [
+    "Air",
+    "Animal",
+    "Artifice",
+    "Chaos",
+    "Charm",
+    "Community",
+    "Darkness",
+    "Death",
+    "Destruction",
+    "Earth",
+    "Evil",
+    "Fire",
+    "Glory",
+    "Good",
+    "Healing",
+    "Knowledge",
+    "Law",
+    "Liberation",
+    "Luck",
+    "Madness",
+    "Magic",
+    "Nobility",
+    "Plant",
+    "Protection",
+    "Repose",
+    "Rune",
+    "Strength",
+    "Sun",
+    "Travel",
+    "Trickery",
+    "War",
+    "Water",
+    "Weather"
+  ],
+  "Deities": [
+    "Erastil",
+    "Iomedae",
+    "Torag",
+    "Sarenrae",
+    "Shelyn",
+    "Desna",
+    "Cayden Cailean",
+    "Abadar",
+    "Irori",
+    "Gozreh",
+    "Pharasma",
+    "Nethys",
+    "Gorum",
+    "Calistria",
+    "Asmodeus",
+    "Zon-Kuthon",
+    "Urgathoa",
+    "Norgorber",
+    "Lamashtu",
+    "Rovagug"
+  ],
+
+  "Sorcerer": [ "Aberrant", "Arcane", "Celestial", "Destined", "Draconic", "Elemental", "Fey", "Infernal", "Undead" ],
+  "Dragon": [ "Black", "Blue", "Green", "Red", "White", "Brass", "Bronze", "Copper", "Gold", "silver" ],
+  "Elemental": [ "Air", "Earth", "Fire", "Water" ],
+
+  "Wizard": [ "Arcane", "Abjuration", "Conjuration", "Divination", "Enchantment", "Evocation", "Illusion", "Necromancy", "Transmutation", "Universalist" ],
+
+  "EnergyTypes": [ "Acid", "Cold", "Fire", "Electricity" ],
+
+  "Druid": [ "Bond with Nature", "Bond with a Animal" ],
+  "NatureDomain": [ "Air", "Animal", "Earth", "Fire", "Plant", "Water", "Weather" ],
+  "AnimalCompanion": [ "Badger", "Bird", "Camel", "Small Cat", "Boar", "Dog", "Horse", "Pony", "Constrictor Snake", "Snake, Viper", "Wolf", "Ape", "Bear", "Big Cat", "Crocodile", "Dinosaur", "Shark" ],
+
+  "Fighter": [ "axes", "Heavy Blades", "Light Blades", "Bows", "Close", "Crossbows", "Double", "flails", "Hammer", "Monk", "Natural", "Polearms", "Spears", "thrown" ],
+
+  "Paladin": [
+    {
+      "name": "Fatigue",
+      "level": 3
+    },
+    {
+      "name": "Shaken",
+      "level": 3
+    },
+    {
+      "name": "Sickened",
+      "level": 3
+    },
+    {
+      "name": "Dazed",
+      "level": 6
+    },
+    {
+      "name": "Diseased",
+      "level": 6
+    },
+    {
+      "name": "Staggered",
+      "level": 6
+    },
+    {
+      "name": "Cursed",
+      "level": 9
+    },
+    {
+      "name": "Exausted",
+      "level": 9
+    },
+    {
+      "name": "Frighted",
+      "level": 9
+    },
+    {
+      "name": "Nauseated",
+      "level": 9
+    },
+    {
+      "name": "Poisoned",
+      "level": 9
+    },
+    {
+      "name": "Blinded",
+      "level": 12
+    },
+    {
+      "name": "Deafed",
+      "level": 12
+    },
+    {
+      "name": "Paralyzed",
+      "level": 12
+    },
+    {
+      "name": "Stunned",
+      "level": 12
+    }
+  ],
+  "Divine Bond": [ "Bond with your Deity", "Bond with an animal" ],
+
+  "FavoredEnemies": [
+    "aberration",
+    "Animal",
+    "Contruct",
+    "Dragon",
+    "Fey",
+    "Humanoid(Aquatic)",
+    "Humanoid(Dwarf)",
+    "Humanoid(Giant)",
+    "Humanoid(Goblinoid)",
+    "Humanoid(Gnoll)",
+    "Humanoid(Gnome)",
+    "Humanoid(Halfling)",
+    "Humanoid(human)",
+    "Humanoid(orc)",
+    "Humanoid(Reptilian)",
+    "Humanoid(elf)"
+  ],
+
+  "Favored Terrain": [
+    "Cold",
+    "Desert",
+    "Forest",
+    "Jungle",
+    "Mountain",
+    "Plains",
+    "Planes",
+    "Swamp",
+    "Underground",
+    "Urban",
+    "Water"
+  ],
+
+  "hunter": [ "Bond with his companions", "Bond with an animal Companion" ],
+  "Ranger Animal": [ "DireRat" ]
+}

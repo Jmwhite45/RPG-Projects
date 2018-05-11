@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Pathfinder [
+
+  <!ELEMENT Pathfinder ANY>
+
+  <!ELEMENT Races ANY>
+  <!ELEMENT Race ANY>
+  <!ATTLIST Race id ID #REQUIRED>
+
+  <!ELEMENT Bloodline ANY>
+  <!ATTLIST Bloodline id ID #REQUIRED>
+  <!ATTLIST Bloodline race CDATA #IMPLIED>
+  
+  <!ELEMENT Order ANY>
+  <!ATTLIST Order id ID #REQUIRED>
+  <!ATTLIST Order race CDATA #IMPLIED>
+
+  
+  
+
+  <!ELEMENT AlchemistArchetype ANY>
+  <!ATTLIST AlchemistArchetype id ID #REQUIRED>
+  <!ATTLIST AlchemistArchetype race CDATA #IMPLIED>
+
+  <!ELEMENT BarbarianArchetype ANY>
+  <!ATTLIST BarbarianArchetype id ID #REQUIRED>
+  <!ATTLIST BarbarianArchetype race CDATA #IMPLIED>
+
+  <!ELEMENT BardArchetype ANY>
+  <!ATTLIST BardArchetype id ID #REQUIRED>
+  <!ATTLIST BardArchetype race CDATA #IMPLIED>
+
+  <!ELEMENT CavalierArchetype ANY>
+  <!ATTLIST CavalierArchetype id ID #REQUIRED>
+  <!ATTLIST CavalierArchetype race CDATA #IMPLIED>
+
+  <!ELEMENT ClericArchetype ANY>
+  <!ATTLIST ClericArchetype id ID #REQUIRED>
+  <!ATTLIST ClericArchetype race CDATA #IMPLIED>
+
+  <!ELEMENT DruidArchetype ANY>
+  <!ATTLIST DruidArchetype id ID #REQUIRED>
+  <!ATTLIST DruidArchetype race CDATA #IMPLIED>
+
+  <!ELEMENT FighterArchetype ANY>
+  <!ATTLIST FighterArchetype id ID #REQUIRED>
+  <!ATTLIST FighterArchetype race CDATA #IMPLIED>
+
+  <!ELEMENT GunslingerArchetype ANY>
+  <!ATTLIST GunslingerArchetype id ID #REQUIRED>
+  <!ATTLIST GunslingerArchetype race CDATA #IMPLIED>
+
+  <!ELEMENT InquisitorArchetype ANY>
+  <!ATTLIST InquisitorArchetype id ID #REQUIRED>
+  <!ATTLIST InquisitorArchetype race CDATA #IMPLIED>
+
+  <!ELEMENT MagusArchetype ANY>
+  <!ATTLIST MagusArchetype id ID #REQUIRED>
+  <!ATTLIST MagusArchetype race CDATA #IMPLIED>
+
+  <!ELEMENT MonkArchetype ANY>
+  <!ATTLIST MonkArchetype id ID #REQUIRED>
+  <!ATTLIST MonkArchetype race CDATA #IMPLIED>
+
+  <!ELEMENT OracleArchetype ANY>
+  <!ATTLIST OracleArchetype id ID #REQUIRED>
+  <!ATTLIST OracleArchetype race CDATA #IMPLIED>
+
+  <!ELEMENT PaladinArchetype ANY>
+  <!ATTLIST PaladinArchetype id ID #REQUIRED>
+  <!ATTLIST PaladinArchetype race CDATA #IMPLIED>
+
+  <!ELEMENT RangerArchetype ANY>
+  <!ATTLIST RangerArchetype id ID #REQUIRED>
+  <!ATTLIST RangerArchetype race CDATA #IMPLIED>
+
+  <!ELEMENT RogueArchetype ANY>
+  <!ATTLIST RogueArchetype id ID #REQUIRED>
+  <!ATTLIST RogueArchetype race CDATA #IMPLIED>
+  
+  <!ELEMENT SorcererArchetype ANY>
+  <!ATTLIST SorcererArchetype id ID #REQUIRED>
+  <!ATTLIST SorcererArchetype race CDATA #IMPLIED>
+
+  <!ELEMENT SummonerArchetype ANY>
+  <!ATTLIST SummonerArchetype id ID #REQUIRED>
+  <!ATTLIST SummonerArchetype race CDATA #IMPLIED>
+  
+  <!ELEMENT WitchArchetype ANY>
+  <!ATTLIST WitchArchetype id ID #REQUIRED>
+  <!ATTLIST WitchArchetype race CDATA #IMPLIED>
+
+  <!ELEMENT WizardArchetype ANY>
+  <!ATTLIST WizardArchetype id ID #REQUIRED>
+  <!ATTLIST WizardArchetype race CDATA #IMPLIED>
+]>
+
+<Pathfinder>
+  <Races>
+    <Race id="Race8">Aasimar</Race>
+    <Race id="Race9">CatFolk</Race>
+    <Race id="Race10">Dhampir</Race>
+    <Race id="Race11">Drow</Race>
+    <Race id="Race12">Fetchling</Race>
+    <Race id="Race13">Goblin</Race>
+    <Race id="Race14">Hobgoblin</Race>
+    <Race id="Race15">Ifrit</Race>
+    <Race id="Race16">Kobold</Race>
+    <Race id="Race17">Orcs</Race>
+    <Race id="Race18">Oread</Race>
+    <Race id="Race19">Ratfolk</Race>
+    <Race id="Race20">Sylph</Race>
+    <Race id="Race21">Tengu</Race>
+    <Race id="Race22">Tiefling</Race>
+    <Race id="Race23">Undine</Race>
+    <Race id="Race24">Changeling</Race>
+    <Race id="Race25">Duergar</Race>
+    <Race id="Race26">Gillmen</Race>
+    <Race id="Race27">Grippli</Race>
+    <Race id="Race28">Kitsune</Race>
+    <Race id="Race29">Merfolk</Race>
+    <Race id="Race30">Nagaji</Race>
+    <Race id="Race31">Samsaran</Race>
+    <Race id="Race32">Strix</Race>
+    <Race id="Race33">Sulis</Race>
+    <Race id="Race34">Svirfneblin</Race>
+    <Race id="Race35">Vanara</Race>
+    <Race id="Race36">Vishkanya</Race>
+    <Race id="Race37">Wayang</Race>
+  </Races>
+
+  <Bloodline id="Bloodline21" race="Human">imperious bloodline</Bloodline>
+  <Bloodline id="Bloodline22" race="Kobold">kobold sorcerer</Bloodline>
+
+  <Order id="Order8" race="Halfling">order of the paw</Order>
+
+  <AlchemistArchetype id="AlchemistArchetype2" race="Gnome">saboteur</AlchemistArchetype>
+  <AlchemistArchetype id="AlchemistArchetype3" race="Goblin">fire bomber</AlchemistArchetype>
+  <AlchemistArchetype id="AlchemistArchetype4" race="Gripplis">Bogborn alchemist</AlchemistArchetype>
+  <AlchemistArchetype id="AlchemistArchetype5" race="Half-Elven">Bramble brewer</AlchemistArchetype>
+  <AlchemistArchetype id="AlchemistArchetype6" race="Svirfneblin">Deep bomber</AlchemistArchetype>
+
+  <BarbarianArchetype id="BarbarianArchetype11" race="Goblin">Feral gnasher</BarbarianArchetype>
+  <BarbarianArchetype id="BarbarianArchetype12" race="Half-Orcs">hateful rager</BarbarianArchetype>
+
+  <BardArchetype id="BardArchetype12" race="Gnome">prankster</BardArchetype>
+  <BardArchetype id="BardArchetype13" race="Undine">watersinger</BardArchetype>
+  <BardArchetype id="BardArchetype14" race="Wayangs">Shadow puppeteer</BardArchetype>
+
+  <CavalierArchetype id="CavalierArchetype2" race="Hobgoblin">Fell rider</CavalierArchetype>
+
+  <ClericArchetype id="ClericArchetype10" race="Drow">demonic apostle</ClericArchetype>
+  <ClericArchetype id="ClericArchetype11" race="Dwarven">ForgeMaster</ClericArchetype>
+  <ClericArchetype id="ClericArchetype12" race="Tiefling">fiendish vessel</ClericArchetype>
+
+  <DruidArchetype id="DruidArchetype19" race="Elven">treesinger</DruidArchetype>
+  <DruidArchetype id="DruidArchetype20" race="Human">feral child</DruidArchetype>
+  <DruidArchetype id="DruidArchetype21" race="Nagaji">Naga aspirant</DruidArchetype>
+  <DruidArchetype id="DruidArchetype22" race="Sylph">Sky druid</DruidArchetype>
+  <DruidArchetype id="DruidArchetype23" race="Undine">Undine adept</DruidArchetype>
+
+  <FighterArchetype id="FighterArchetype15" race="Drow">Cavern sniper</FighterArchetype>
+  <FighterArchetype id="FighterArchetype16" race="Dwarven">Foehammer</FighterArchetype>
+  <FighterArchetype id="FighterArchetype17" race="Orc">Dirty fighter</FighterArchetype>
+  <FighterArchetype id="FighterArchetype19" race="Strix">Airborne ambusher</FighterArchetype>
+
+  <GunslingerArchetype id="GunslingerArchetype2" race="Gnome">Experimental gunsmith</GunslingerArchetype>
+  <GunslingerArchetype id="GunslingerArchetype3" race="Human">Buccaneer</GunslingerArchetype>
+  <GunslingerArchetype id="GunslingerArchetype4" race="Kobold">Bushwhacker</GunslingerArchetype>
+
+  <InquisitorArchetype id="InquisitorArchetype3" race="Dhampirs">kinslayer</InquisitorArchetype>
+  <InquisitorArchetype id="InquisitorArchetype4" race="Dwarven">Exarch</InquisitorArchetype>
+  <InquisitorArchetype id="InquisitorArchetype5" race="Ifrit">Immolator</InquisitorArchetype>
+
+  <MagusArchetype id="MagusArchetype2" race="Elven">spell dancer</MagusArchetype>
+  <MagusArchetype id="MagusArchetype3" race="Sulis">Elemental knight</MagusArchetype>
+    <MagusArchetype id="MagusArchetype4" race="Tiefling">Fiend layer</MagusArchetype>
+
+  <MonkArchetype id="MonkArchetype13" race="Catfolk">nimble guardian</MonkArchetype>
+    <MonkArchetype id="MonkArchetype14" race="Duergar">Gray disciple</MonkArchetype>
+      <MonkArchetype id="MonkArchetype15" race="Halfling">underfoot adept</MonkArchetype>
+        <MonkArchetype id="MonkArchetype16" race="Hobgoblin">ironskin monk</MonkArchetype>
+  <MonkArchetype id="MonkArchetype17" race="Human">wanderer</MonkArchetype>
+    <MonkArchetype id="MonkArchetype18" race="Oread">student of stone</MonkArchetype>
+      <MonkArchetype id="MonkArchetype19" race="Vanaras">Treetop monk</MonkArchetype>
+
+  <OracleArchetype id="OracleArchetype4" race="Aasimar">Purifier</OracleArchetype>
+  <OracleArchetype id="OracleArchetype5" race="Elven">Ancient lorekeeper</OracleArchetype>
+  <OracleArchetype id="OracleArchetype6" race="Halfling">Community guardian</OracleArchetype>
+  <OracleArchetype id="OracleArchetype7" race="Tengu">Shigenjo</OracleArchetype>
+
+  <PaladinArchetype id="PaladinArchetype10" race="Aasimar">tranquil guardian</PaladinArchetype>
+    <PaladinArchetype id="PaladinArchetype11" race="Half-Orcs">redeemer</PaladinArchetype>
+  <PaladinArchetype id="PaladinArchetype12" race="Dwarven">stonelord</PaladinArchetype>
+
+  <RangerArchetype id="RangerArchetype12" race="Fetchling">Dusk stalker</RangerArchetype>
+  <RangerArchetype id="RangerArchetype13" race="Half-Elven">wild shadow</RangerArchetype>
+  <RangerArchetype id="RangerArchetype14" race="Merfolk">Wave warden</RangerArchetype>
+
+  <RogueArchetype id="RogueArchetype16" race="Catfolk">Cat burglar</RogueArchetype>
+    <RogueArchetype id="RogueArchetype17" race="Gillmen">Eldritch raider</RogueArchetype>
+      <RogueArchetype id="RogueArchetype18" race="Half-Orcs">skulking slayer</RogueArchetype>
+        <RogueArchetype id="RogueArchetype19" race="Halfling">filcher</RogueArchetype>
+          <RogueArchetype id="RogueArchetype20" race="Kitsune">Kitsune trickster</RogueArchetype>
+            <RogueArchetype id="RogueArchetype21" race="Tengu">swordmaster</RogueArchetype>
+              <RogueArchetype id="RogueArchetype22" race="Vishkanyas">Deadly courtesan</RogueArchetype>
+
+  <SorcererArchetype id="SorcererArchetype3" race="Ifrit">wishcrafter</SorcererArchetype>
+
+  <SummonerArchetype id="SummonerArchetype3" race="Fetchling">shadow caller</SummonerArchetype>
+    <SummonerArchetype id="SummonerArchetype4" race="Half-Elven">wild caller</SummonerArchetype>
+      <SummonerArchetype id="SummonerArchetype5" race="Half-Orcs">Blood god disciple</SummonerArchetype>
+        <SummonerArchetype id="SummonerArchetype6" race="Oread">Shaitan binder</SummonerArchetype>
+
+  <WitchArchetype id="WitchArchetype2" race="Changeling">Dreamweaver</WitchArchetype>
+  <WitchArchetype id="WitchArchetype3" race="Half-Elven">bonded witch</WitchArchetype>
+  <WitchArchetype id="WitchArchetype4" race="Orc">scarred witch doctor</WitchArchetype>
+
+  <WizardArchetype id="WizardArchetype4" race="Dhampirs">Cruoromancer</WizardArchetype>
+  <WizardArchetype id="WizardArchetype5" race="Elven">spellbinder</WizardArchetype>
+  <WizardArchetype id="WizardArchetype6" race="Sylph">wind listener</WizardArchetype>
+
+</Pathfinder>

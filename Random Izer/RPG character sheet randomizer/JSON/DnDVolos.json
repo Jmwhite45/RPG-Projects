@@ -1,0 +1,6 @@
+﻿{
+  "Race": [ "Aasimar", "Firbolg", "Goliath (Volo's guide to Monsters)", "Kenku", "LizardFolk", "Triton" ],
+  "Revenant": [ "Aasimar" ],
+  "Aasimar": [ "Protector", "Scourge", "Fallen" ]
+}
+

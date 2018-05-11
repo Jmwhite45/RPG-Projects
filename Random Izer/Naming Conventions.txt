@@ -1,0 +1,31 @@
+Naming Conventions
+------------------
+
+
+
+
+
+PathfinderCounts.xml
+----------
+{Letter}{number}
+
+Letter meanings:
+M= major
+mn=Miner
+C= class
+S= Subclass
+A= arch
+D= Deities
+
+other notes: the numbering on the arch and classes match the class id number in the pathfinder classes
+
+
+
+
+
+Pathfinder{*insert XML file name here*}.XML
+--------------------------------------------
+{Type}{Number}
+
+Types can be things like domains, classes, races...
+Number is a uquiue number for each element in their respected types

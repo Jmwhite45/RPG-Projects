@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<!DOCTYPE DnD [
+
+  <!ELEMENT DnD ANY >
+  
+  <!ELEMENT Classes ANY>
+    <!ELEMENT Class ANY>
+      <!ATTLIST Class id ID #REQUIRED>
+
+    <!ELEMENT Races ANY>
+      <!ELEMENT Race ANY>
+        <!ATTLIST Race id ID #REQUIRED>
+      <!ELEMENT Dragon ANY>
+        <!ATTLIST Dragon id ID #REQUIRED>
+      <!ELEMENT Dwarf ANY>
+        <!ATTLIST Dwarf id ID #REQUIRED>
+      <!ELEMENT Elf ANY>
+        <!ATTLIST Elf id ID #REQUIRED>
+      <!ELEMENT Gnome ANY>
+        <!ATTLIST Gnome id ID #REQUIRED>
+      <!ELEMENT Halfling ANY>
+        <!ATTLIST Halfling id ID #REQUIRED>
+  <!ELEMENT Dragons ANY>
+   <!ELEMENT Dragon ANY>
+     <!ATTLIST Dragon id ID #REQUIRED>
+  
+  <!ELEMENT Barbarian ANY>
+     <!ELEMENT Path ANY>
+        <!ATTLIST Path id ID #REQUIRED>
+     <!ELEMENT TotemPath ANY>
+       <!ELEMENT Totem ANY>
+          <!ATTLIST Totem id ID #REQUIRED>
+  
+  <!ELEMENT Bard ANY>
+     <!ELEMENT college ANY>
+        <!ATTLIST college id ID #REQUIRED>
+  
+  <!ELEMENT Cleric ANY>
+     <!ELEMENT Domain ANY>
+        <!ATTLIST Domain id ID #REQUIRED>
+  
+  <!ELEMENT Druid ANY>
+     <!ELEMENT circle ANY>
+        <!ATTLIST circle id ID #REQUIRED>
+  
+  <!ELEMENT fightingStyles ANY>
+     <!ELEMENT fightingStyle ANY>
+        <!ATTLIST fightingStyle id ID #REQUIRED>
+  
+  <!ELEMENT Fighter ANY>
+     <!ELEMENT FighterArchs ANY>
+        <!ATTLIST FighterArchs id ID #REQUIRED> 
+    <!ELEMENT BattleMaster ANY>
+       <!ELEMENT Maneuver ANY>
+          <!ATTLIST Maneuver id ID #REQUIRED>
+  
+  <!ELEMENT Monk ANY>
+     <!ELEMENT way ANY>
+        <!ATTLIST way id ID #REQUIRED>
+  <!ELEMENT Discipline ANY>
+  <!ATTLIST Discipline id ID #REQUIRED>
+  <!ATTLIST Discipline level CDATA #REQUIRED>
+  
+  <!ELEMENT Paladin ANY>
+     <!ELEMENT Oath ANY>
+        <!ATTLIST Oath id ID #REQUIRED>
+  
+  <!ELEMENT Ranger ANY>
+    <!ELEMENT Favored ANY>
+       <!ELEMENT FavEnemy ANY>
+          <!ATTLIST FavEnemy id ID #REQUIRED>
+       <!ELEMENT FavTerrain ANY>
+          <!ATTLIST FavTerrain id ID #REQUIRED>
+  
+    <!ELEMENT Hunters ANY>
+       <!ELEMENT Huntersprey ANY>
+          <!ATTLIST Huntersprey id ID #REQUIRED>
+       <!ELEMENT DefensiveTact ANY>
+          <!ATTLIST DefensiveTact id ID #REQUIRED>
+       <!ELEMENT Multi ANY>
+          <!ATTLIST Multi id ID #REQUIRED>
+       <!ELEMENT SuperiorDef ANY>
+          <!ATTLIST SuperiorDef id ID #REQUIRED>
+  
+  <!ELEMENT Rogue ANY>
+     <!ELEMENT RogueArch ANY>
+        <!ATTLIST RogueArch id ID #REQUIRED>
+  
+  <!ELEMENT sorcerer ANY>
+     <!ELEMENT origin ANY>
+        <!ATTLIST origin id ID #REQUIRED>
+     <!ELEMENT MetaMagic ANY>
+        <!ATTLIST MetaMagic id ID #REQUIRED>
+  
+  <!ELEMENT warlock ANY>
+     <!ELEMENT invocation ANY>
+        <!ATTLIST invocation id ID #IMPLIED> 
+        <!ATTLIST invocation boon ID #IMPLIED> 
+        <!ATTLIST invocation level ID #IMPLIED>
+        <!ATTLIST invocation Prerequisits ID #IMPLIED>
+     <!ELEMENT Boon ANY>
+        <!ATTLIST Boon id ID #REQUIRED>
+     <!ELEMENT patron ANY>
+        <!ATTLIST patron id ID #REQUIRED>
+  
+  <!ELEMENT wizard ANY>
+     <!ELEMENT school ANY>
+        <!ATTLIST school id ID #REQUIRED>
+]>
+<DnD>
+
+<Dragons>
+  <dragon id="dragon1">Black Dragon</dragon>
+  <dragon id="dragon1">Blue Dragon</dragon>
+  <dragon id="dragon1">Brass Dragon</dragon>
+  <dragon id="dragon1">Bronze Dragon</dragon>
+  <dragon id="dragon1">Copper Dragon</dragon>
+  <dragon id="dragon1">Gold Dragon</dragon>
+  <dragon id="dragon1">Green Dragon</dragon>
+  <dragon id="dragon1">Red Dragon</dragon>
+  <dragon id="dragon1">Silver Dragon</dragon>
+  <dragon id="dragon1">White Dragon</dragon>
+</Dragons>
+  
+<Classes num ="12">
+  <Class id ="Class1">Barbarian</Class>
+  <Class id ="Class2">Bard</Class>
+  <Class id ="Class3">Cleric</Class>
+  <Class id ="Class4">Druid</Class>
+  <Class id ="Class5">Fighter</Class>
+  <Class id ="Class6">Monk</Class>
+  <Class id ="Class7">Paladin</Class>
+  <Class id ="Class8">Ranger</Class>
+  <Class id ="Class9">Rogue</Class>
+  <Class id ="Class10">Sorcerer</Class>
+  <Class id ="Class11">Warlock</Class>
+  <Class id ="Class12">Wizard</Class>
+</Classes>
+
+<Races>
+  <Race id ="Race1">Dragonborn</Race>
+  <Race id ="Race2">Dwarf</Race>
+  <Race id ="Race3">Elf</Race>
+  <Race id ="Race4">Gnome</Race>
+  <Race id ="Race5">Half-elf</Race>
+  <Race id ="Race6">Half-Orc</Race>
+  <Race id ="Race7">Halfling</Race>
+  <Race id ="Race8">Human</Race>
+  <Race id ="Race9">Tiefling</Race>
+  <Dragon id=""></Dragon>
+  <Dwarf id="Dwarf1">Hill</Dwarf>
+  <Dwarf id="Dwarf2">Mountain</Dwarf>
+  <Elf id="Elf1">High</Elf>
+  <Elf id="Elf2">Wood</Elf>
+  <Elf id="Elf3">Dark</Elf>
+  <Gnome id="Gnome1">Forest</Gnome>
+  <Gnome id="Gnome2">rock</Gnome>
+  <Halfling id="Halfling1">LightFoot</Halfling>
+  <Halfling id="Halfling2">Stout</Halfling>
+</Races>
+
+<Barbarian>
+  <Path id ="Path1">Path of the Beserker</Path>
+  <Path id ="Path2">Path of the Totem Warrior</Path>
+  <TotemPath>
+    <Totem id ="Totem1">Bear</Totem> 
+    <Totem id ="Totem2">eagle</Totem>
+    <Totem id ="Totem3">wolf</Totem>
+  </TotemPath>
+</Barbarian>
+
+<Bard>
+  <college id ="College1">College of Lore</college>
+  <college id ="College2">College of Valor</college>
+</Bard>
+  
+<Cleric>
+  <Domain id ="Domain1">Knowledge Domain</Domain>
+  <Domain id ="Domain2">Life Domain</Domain>
+  <Domain id ="Domain3">Light Domain</Domain>
+  <Domain id ="Domain4">Nature Domain</Domain>
+  <Domain id ="Domain5">Tempest Domain</Domain>
+  <Domain id ="Domain6">Trickery Domain</Domain>
+  <Domain id ="Domain7">War Domain</Domain>
+</Cleric>
+  
+<Druid>
+  <circle id ="circle1">Circle of the Land</circle>
+  <circle id ="circle2">Circle of the Moon</circle>
+</Druid>
+
+<fightingStyles>
+  <fightingStyle id ="fightingStyle1">Archery</fightingStyle>
+  <fightingStyle id ="fightingStyle2">Defense</fightingStyle>
+  <fightingStyle id ="fightingStyle3">Dueling</fightingStyle>
+  <fightingStyle id ="fightingStyle4">Two Weapon Fighting</fightingStyle>
+</fightingStyles>
+  
+<Fighter>
+  <FighterArchs id ="FighterArchs1">Champion</FighterArchs>
+  <FighterArchs id ="FighterArchs2">BattleMaster</FighterArchs>
+  <FighterArchs id ="FighterArchs3">EldrichKnight</FighterArchs>
+  <BattleMaster>
+    <Maneuver id ="Maneuver1">Commander's Stríke.</Maneuver>
+    <Maneuver id ="Maneuver2">Dísarmíng Attack</Maneuver>
+    <Maneuver id ="Maneuver3">Dístractíng Strike</Maneuver>
+    <Maneuver id ="Maneuver4">Evasive Footwork.</Maneuver>
+    <Maneuver id ="Maneuver5">Feínting Attack</Maneuver>
+    <Maneuver id ="Maneuver6">Goading Attack</Maneuver>
+    <Maneuver id ="Maneuver7">Lunging Attack</Maneuver>
+    <Maneuver id ="Maneuver8">Maneuveríng Attack</Maneuver>
+    <Maneuver id ="Maneuver9">MenacingAttack.</Maneuver>
+    <Maneuver id ="Maneuver10">Parry</Maneuver>
+    <Maneuver id ="Maneuver11">Precision Attack</Maneuver>
+    <Maneuver id ="Maneuver12">Pushíng Attack.</Maneuver>
+    <Maneuver id ="Maneuver13">Rally</Maneuver>
+    <Maneuver id ="Maneuver14">Ríposte.</Maneuver>
+    <Maneuver id ="Maneuver15">Sweepíng Attack.</Maneuver>
+    <Maneuver id ="Maneuver16">TrípAttack.</Maneuver>
+  </BattleMaster>
+</Fighter>
+
+<Monk>
+  <way id ="way1">the Way of the Open Hand</way>
+  <way id ="way2">the Way of Shadow</way>
+  <way id ="way3">the Way of the Four Elements</way>
+  <Discipline id="Discipline1" level="17">Breath of Winter</Discipline>
+  <Discipline id="Discipline2" level="6">Clench ofthe North Wind</Discipline>
+  <Discipline id="Discipline3" level="1">Elemental Attunement</Discipline>
+  <Discipline id="Discipline4" level="11">Eternal Mountain Defense</Discipline>
+  <Discipline id="Discipline5" level="1">Fangs of the Fire Snake</Discipline>
+  <Discipline id="Discipline6" level="1">Fist of Four Thunders</Discipline>
+  <Discipline id="Discipline7" level="1">Fist of Unbroken Air</Discipline>
+  <Discipline id="Discipline8" level="11">Flames of the Phoenix</Discipline>
+  <Discipline id="Discipline9" level="6">Gong ofthe Summit</Discipline>
+  <Discipline id="Discipline10" level="11">Mist Stance</Discipline>
+  <Discipline id="Discipline11" level="11">Ride the Wind</Discipline>
+  <Discipline id="Discipline12" level="17">River of Hungry Flame</Discipline>
+  <Discipline id="Discipline13" level="1">Rush of the Gale Spirits</Discipline>
+  <Discipline id="Discipline14" level="1">Shape the Flowing River</Discipline>
+  <Discipline id="Discipline15" level="1">Sweeping Cinder Strike.</Discipline>
+  <Discipline id="Discipline16" level="1">Water Whip</Discipline>
+  <Discipline id="Discipline17" level="17">Wave ofRolling Earth</Discipline>
+</Monk>
+
+<Paladin>
+  <Oath id ="Oath1">Oath of Devotion</Oath>
+  <Oath id ="Oath2">Oath of the Ancients</Oath>
+  <Oath id ="Oath3">Oath of Vengeance</Oath>
+</Paladin>
+
+<Ranger>
+  <Favored>
+    <FavEnemy id ="FavEnemy1">aberrations</FavEnemy>
+    <FavEnemy id ="FavEnemy2">beasts</FavEnemy>
+    <FavEnemy id ="FavEnemy3">celestiais</FavEnemy>
+    <FavEnemy id ="FavEnemy4">constructs</FavEnemy>
+    <FavEnemy id ="FavEnemy5">dragons</FavEnemy>
+    <FavEnemy id ="FavEnemy6">elementals</FavEnemy>
+    <FavEnemy id ="FavEnemy7">fey</FavEnemy>
+    <FavEnemy id ="FavEnemy8">fiends</FavEnemy>
+    <FavEnemy id ="FavEnemy9">giants</FavEnemy>
+    <FavEnemy id ="FavEnemy10">monstrosities</FavEnemy>
+    <FavEnemy id ="FavEnemy11">oozes</FavEnemy>
+    <FavEnemy id ="FavEnemy12">plants</FavEnemy>
+    <FavEnemy id ="FavEnemy13">undead</FavEnemy>
+    <FavEnemy id ="FavEnemy14">2 humanoid</FavEnemy>
+    
+    <FavTerrain id ="FavTerrain1">arctic</FavTerrain>
+    <FavTerrain id ="FavTerrain2">coast</FavTerrain>
+    <FavTerrain id ="FavTerrain3">desert</FavTerrain>
+    <FavTerrain id ="FavTerrain4">forest</FavTerrain>
+    <FavTerrain id ="FavTerrain5">grassland</FavTerrain>
+    <FavTerrain id ="FavTerrain6">mountain</FavTerrain>
+    <FavTerrain id ="FavTerrain7">swamp</FavTerrain>
+    <FavTerrain id ="FavTerrain8">Underdark</FavTerrain>
+  </Favored>
+  
+  <Hunters>
+    <Huntersprey id ="Huntersprey1">Cossus Slayer</Huntersprey>
+    <Huntersprey id ="Huntersprey2">Giant Killer</Huntersprey>
+    <Huntersprey id ="Huntersprey3">Horde Breaker</Huntersprey>
+    <DefensiveTact id ="DefensiveTact1">Escape the Horde</DefensiveTact>
+    <DefensiveTact id ="DefensiveTact2">Multiattack Defense.</DefensiveTact>
+    <DefensiveTact id ="DefensiveTact3">Steel Will</DefensiveTact>
+    <Multi id ="Multi1">Volley</Multi>
+    <Multi id ="Multi2">Whirlwind Attack</Multi>
+    <SuperiorDef id ="SuperiorDef1">Evasion</SuperiorDef>
+    <SuperiorDef id ="SuperiorDef2">Stand Against the Tide</SuperiorDef>
+    <SuperiorDef id ="SuperiorDef3">Uncanny Dodge</SuperiorDef>
+    </Hunters>
+</Ranger>
+  
+<Rogue>
+  <RogueArch id ="RogueArch1">Theif</RogueArch>
+  <RogueArch id ="RogueArch2">Assassin</RogueArch>
+  <RogueArch id ="RogueArch3">Arcane Trickster</RogueArch>
+</Rogue>
+  
+<sorcerer>
+  <origin id ="origin1">draconic</origin>
+  <origin id ="origin2">Wild Magic</origin>
+  <MetaMagic id ="Meta1">Careful Spell</MetaMagic>
+  <MetaMagic id ="Meta2">Distant Spell</MetaMagic>
+  <MetaMagic id ="Meta3">Empowered Spell</MetaMagic>
+  <MetaMagic id ="Meta4">Extended Spell</MetaMagic>
+  <MetaMagic id ="Meta5">Heightened Spell</MetaMagic>
+  <MetaMagic id ="Meta6">Quickened Spell</MetaMagic>
+  <MetaMagic id ="Meta7">subtle Spell</MetaMagic>
+  <MetaMagic id ="Meta8">Twinned Spell</MetaMagic>
+</sorcerer>
+  
+<warlock>
+  <Boon id ="Boon1">Pact of the Chain</Boon>
+  <Boon id ="Boon2">Pact of the Blade</Boon>
+  <Boon id ="Boon3">Pact of the Tome</Boon>
+  <invocation id ="invocation1" Prerequisite="1">Agonizing blast</invocation>
+  <invocation id ="invocation2">Armor of Shadows</invocation>
+  <invocation id ="invocation3" level="9">Ascentdant Step</invocation>
+  <invocation id ="invocation4">Beast Speech</invocation>
+  <invocation id ="invocation5">Beguilding Influence</invocation>
+  <invocation id ="invocation6" level="7">Bewitching Whispers</invocation>
+  <invocation id ="invocation7" boon="3">Book of Ancient Secrets</invocation>
+  <invocation id ="invocation8" level="15" boon="1">Chains of Careri</invocation>
+  <invocation id ="invocation9">Devil's Sight</invocation>
+  <invocation id ="invocation10" level="7">Dreadful Word</invocation>
+  <invocation id ="invocation11">Eldritch Sight</invocation>
+  <invocation id ="invocation12" Prerequisite="1">Eldritch Spear</invocation>
+  <invocation id ="invocation13">Eyes of the Rune Keeper</invocation>
+  <invocation id ="invocation14">Fiendish Vigor</invocation>
+  <invocation id ="invocation15">Gaze of two Minds</invocation>
+  <invocation id ="invocation16" level="12" boon="2">LifeDrinker</invocation>
+  <invocation id ="invocation17">Mask of many faces</invocation>
+  <invocation id ="invocation18" level="15">Master of Myriad forms</invocation>
+  <invocation id ="invocation19" level="9">Minions of Chaos</invocation>
+  <invocation id ="invocation20" level="5">Mire the Mind</invocation>
+  <invocation id ="invocation21">Misty Visions</invocation>
+  <invocation id ="invocation22" level="5">One with Shadoes</invocation>
+  <invocation id ="invocation23" level="9">Otherworldly Leap</invocation>
+  <invocation id ="invocation24" Prerequisite="1">Repelling Blast</invocation>
+  <invocation id ="invocation25" level="7">Sculptor of Flesh</invocation>
+  <invocation id ="invocation26" level="5">sign of Ill Omen</invocation>
+  <invocation id ="invocation27">theif of five fates</invocation>
+  <invocation id ="invocation28" level="5" boon="2">Thirsting Blade</invocation>
+  <invocation id ="invocation29" level="15">Visions of Distant Realms</invocation>
+  <invocation id ="invocation30" boon="1">Voice of the chain master</invocation>
+  <invocation id ="invocation31" level="9">Whispers of the Grave</invocation>
+  <invocation id ="invocation32" level="15">Witch Sight</invocation>
+  <patron id ="patron1">Archfey</patron>
+  <patron id ="patron2">The Fiend</patron>
+  <patron id ="patron3">The  Great Old One</patron>
+</warlock>
+  
+<wizard>
+  <school id ="School1">Abjuration</school>
+  <school id ="School2">Conjuration</school>
+  <school id ="School3">Divination</school>
+  <school id ="School4">Enchantment</school>
+  <school id ="School5">Evocation</school>
+  <school id ="School6">Illusion</school>
+  <school id ="School7">Necromancy</school>
+  <school id ="School8">Transmutation</school>
+</wizard>
+  
+<Backgrounds>
+    <Background id ="Background1">Acolyte</Background>
+    <Background id ="Background2">Charlatan</Background>
+    <Background id ="Background3">Criminal</Background>
+    <Background id ="Background4">Entertainer</Background>
+    <Background id ="Background5">Folk Hero</Background>
+    <Background id ="Background6">Guild Artisan</Background>
+    <Background id ="Background7">Hermit</Background>
+    <Background id ="Background8">Nobel</Background>
+    <Background id ="Background9">Outlander</Background>
+    <Background id ="Background10">Sage</Background>
+    <Background id ="Background11">Sailor</Background>
+    <Background id ="Background12">Soldier</Background>
+    <Background id ="Background13">Urchin</Background>
+  </Backgrounds>
+
+</DnD>

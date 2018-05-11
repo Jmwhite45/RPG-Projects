@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Pathfinder [
+
+  <!ELEMENT Pathfinder ANY>
+
+  <!ELEMENT Classes ANY>
+  <!ELEMENT Class ANY>
+  <!ATTLIST Class id ID #REQUIRED>
+
+  <!ELEMENT Spirits ANY>
+  <!ELEMENT Spirit ANY>
+  <!ATTLIST Spirit id ID #REQUIRED>
+
+  <!ELEMENT Discoveries ANY>
+  <!ELEMENT Discovery ANY>
+  <!ATTLIST Discovery id ID #REQUIRED>
+  <!ATTLIST Discovery Level CDATA #IMPLIED>
+
+  <!ELEMENT RagePowers ANY>
+  <!ELEMENT RagePower ANY>
+  <!ATTLIST RagePower id ID #REQUIRED>
+  <!ATTLIST RagePower Max CDATA #IMPLIED>
+  <!ATTLIST RagePower Level CDATA #IMPLIED>
+  <!ATTLIST RagePower PowerPreReq CDATA #IMPLIED>
+
+  <!ELEMENT Orders ANY>
+  <!ELEMENT Order ANY>
+  <!ATTLIST Order id ID #REQUIRED>
+
+  <!ELEMENT CombateStyles ANY>
+  <!ELEMENT CombateStyle ANY>
+  <!ATTLIST CombateStyle id ID #REQUIRED>
+
+  
+  
+  <!ELEMENT Archetypes ANY>
+  
+  <!ELEMENT AlchemistArchetype ANY>
+  <!ATTLIST AlchemistArchetype id ID #REQUIRED>
+  
+  <!ELEMENT ArcanistArchetype ANY>
+  <!ATTLIST ArcanistArchetype id ID #REQUIRED>
+  
+  <!ELEMENT BardArchetype ANY>
+  <!ATTLIST BardArchetype id ID #REQUIRED>
+  
+  <!ELEMENT BloodragerArchetype ANY>
+  <!ATTLIST BloodragerArchetype id ID #REQUIRED>
+  
+  <!ELEMENT BrawlerArchetype ANY>
+  <!ATTLIST BrawlerArchetype id ID #REQUIRED>
+  
+  <!ELEMENT CavalierArchetype ANY>
+  <!ATTLIST CavalierArchetype id ID #REQUIRED>
+  
+  <!ELEMENT ClericArchetype ANY>
+  <!ATTLIST ClericArchetype id ID #REQUIRED>
+  
+  <!ELEMENT DruidArchetype ANY>
+  <!ATTLIST DruidArchetype id ID #REQUIRED>
+  
+  <!ELEMENT FighterArchetype ANY>
+  <!ATTLIST FighterArchetype id ID #REQUIRED>
+  
+  <!ELEMENT GunslingerArchetype ANY>
+  <!ATTLIST GunslingerArchetype id ID #REQUIRED>
+  
+  <!ELEMENT HunterArchetype ANY>
+  <!ATTLIST HunterArchetype id ID #REQUIRED>
+  
+  <!ELEMENT InquisitorArchetype ANY>
+  <!ATTLIST InquisitorArchetype id ID #REQUIRED>
+  
+  <!ELEMENT InvestigatorArchetype ANY>
+  <!ATTLIST InvestigatorArchetype id ID #REQUIRED>
+  
+  <!ELEMENT MagusArchetype ANY>
+  <!ATTLIST MagusArchetype id ID #REQUIRED>
+  
+  <!ELEMENT MonkArchetype ANY>
+  <!ATTLIST MonkArchetype id ID #REQUIRED>
+  
+  <!ELEMENT OracleArchetype ANY>
+  <!ATTLIST OracleArchetype id ID #REQUIRED>
+  
+  <!ELEMENT PaladinArchetype ANY>
+  <!ATTLIST PaladinArchetype id ID #REQUIRED>
+  
+  <!ELEMENT RangerArchetype ANY>
+  <!ATTLIST RangerArchetype id ID #REQUIRED>
+  
+  <!ELEMENT RogueArchetype ANY>
+  <!ATTLIST RogueArchetype id ID #REQUIRED>
+  
+  <!ELEMENT ShamanArchetype ANY>
+  <!ATTLIST ShamanArchetype id ID #REQUIRED>
+  
+  <!ELEMENT SkaldArchetype ANY>
+  <!ATTLIST SkaldArchetype id ID #REQUIRED>
+  
+  <!ELEMENT SlayerArchetype ANY>
+  <!ATTLIST SlayerArchetype id ID #REQUIRED>
+  
+  <!ELEMENT SorcererArchetype ANY>
+  <!ATTLIST SorcererArchetype id ID #REQUIRED>
+  
+  <!ELEMENT SummonerArchetype ANY>
+  <!ATTLIST SummonerArchetype id ID #REQUIRED>
+  
+  <!ELEMENT SwashbucklerArchetype ANY>
+  <!ATTLIST SwashbucklerArchetype id ID #REQUIRED>
+  
+  <!ELEMENT WarpriestArchetype ANY>
+  <!ATTLIST WarpriestArchetype id ID #REQUIRED>
+  
+  <!ELEMENT WitchArchetype ANY>
+  <!ATTLIST WitchArchetype id ID #REQUIRED>
+  
+  <!ELEMENT WizardArchetype ANY>
+  <!ATTLIST WizardArchetype id ID #REQUIRED>
+]>
+
+<Pathfinder>
+  <Classes>
+    <Class id="Class12">Arcanist</Class>
+    <Class id="Class13">Bloodrager</Class>
+    <Class id="Class14">Brawler</Class>
+    <Class id="Class15">Hunter</Class>
+    <Class id="Class16">Investigator</Class>
+    <Class id="Class17">Shaman</Class>
+    <Class id="Class18">Skald</Class>
+    <Class id="Class19">Slayer</Class>
+    <Class id="Class20">Swashbuckler</Class>
+    <Class id="Class21">Warpriest</Class>
+  </Classes>
+
+  <!-- Shaman Spirits -->
+  <Spirits>
+    <Spirit id="Spirit1">Battle</Spirit>
+    <Spirit id="Spirit2">Bones</Spirit>
+    <Spirit id="Spirit3">Flame</Spirit>
+    <Spirit id="Spirit4">Heavens</Spirit>
+    <Spirit id="Spirit5">Life</Spirit>
+    <Spirit id="Spirit6">Lore</Spirit>
+    <Spirit id="Spirit7">Nature</Spirit>
+    <Spirit id="Spirit8">Stone</Spirit>
+    <Spirit id="Spirit9">Waves</Spirit>
+    <Spirit id="Spirit10">Wind</Spirit>
+  </Spirits>
+
+  <Discoveries>
+      <Discovery id="Discovery1">Grand Inspiring Cognatogen</Discovery>
+      <Discovery id="Discovery2">Greater Inspiring Cognatogen</Discovery>
+      <Discovery id="Discovery3">Inspired Bomb</Discovery>
+      <Discovery id="Discovery4">Inspiring Cognatogen</Discovery>
+
+      <Discovery id="Discovery5" Level = "20"> Awakened Intellect</Discovery>
+      <Discovery id="Discovery6" Level = "20">Eternal Youth</Discovery>
+      <Discovery id="Discovery7" Level = "20"> Fast Healing</Discovery>
+      <Discovery id="Discovery8" Level = "20">Philosopher’s Stone</Discovery>
+      <Discovery id="Discovery9" Level = "20">Poison Touch</Discovery>
+      <Discovery id="Discovery10" Level = "20">True Mutagen</Discovery>
+  </Discoveries>
+
+  <RagePowers>
+    <RagePower id="RagePower29" PowerPreReq="7" Level ="6">Battle Roar</RagePower>
+    <RagePower id="RagePower30">Fierce Fortitude</RagePower>
+    <RagePower id="RagePower31" PowerPreReq="17" Level ="6">Raging Flier</RagePower>
+    <RagePower id="RagePower32" PowerPreReq="43" Level ="6">Ultimate Clarity</RagePower><!-- Needs Perfect Clerity from Ultimate combate -->
+    <RagePower id="RagePower33" Level ="8">Linnorm Death Curse, Cairn</RagePower>
+    <RagePower id="RagePower34" Level ="4">Linnorm Death Curse, Crag</RagePower>
+    <RagePower id="RagePower35" Level ="4">Linnorm Death Curse, Fjord</RagePower>
+    <RagePower id="RagePower36" Level ="4">Linnorm Death Curse, Ice</RagePower>
+    <RagePower id="RagePower37" Level ="4">Linnorm Death Curse, Taiga</RagePower>
+    <RagePower id="RagePower38" Level ="4">Linnorm Death Curse, Tarn</RagePower>
+    <RagePower id="RagePower39" Level ="8">Linnorm Death Curse, Tor</RagePower>
+    
+    <RagePower id="RagePower41A" Level ="6">Abyssal Blood</RagePower>
+    <RagePower id="RagePower42A" Level ="10">Abyssal Blood, Greater</RagePower>
+    <RagePower id="RagePower40A">Abyssal Blood, Lesser</RagePower>
+    <RagePower id="RagePower41C" Level ="6">Celestial Blood</RagePower>
+    <RagePower id="RagePower42C">Celestial Blood, Greater</RagePower>
+    <RagePower id="RagePower40C">Celestial Blood, Lesser</RagePower>
+    <RagePower id="RagePower41D" Level ="6">Draconic Blood</RagePower>
+    <RagePower id="RagePower42D">Draconic Blood, Greater</RagePower>
+    <RagePower id="RagePower40D">Draconic Blood, Lesser</RagePower>
+    <RagePower id="RagePower41E" Level ="6">Elemental Blood</RagePower>
+    <RagePower id="RagePower42E">Elemental Blood, Greater</RagePower>
+    <RagePower id="RagePower40E">Elemental Blood, Lesser</RagePower>
+    <RagePower id="RagePower41F" Level ="6">Fey Blood</RagePower>
+    <RagePower id="RagePower42F">Fey Blood, Greater</RagePower>
+    <RagePower id="RagePower40F">Fey Blood, Lesser</RagePower>
+    <RagePower id="RagePower41I" Level ="6">Infernal Blood</RagePower>
+    <RagePower id="RagePower42I">Infernal Blood, Greater</RagePower>
+    <RagePower id="RagePower40I">Infernal Blood, Lesser</RagePower>
+    <RagePower id="RagePower41U" Level ="6">Undead Blood</RagePower>
+    <RagePower id="RagePower42U">Undead Blood, Greater</RagePower>
+    <RagePower id="RagePower40U">Undead Blood, Lesser</RagePower>
+  </RagePowers>
+
+  <Orders>
+    <Order id="Order1">Order of the Beast</Order>
+  </Orders>
+
+  <CombateStyles>
+    <CombateStyle id="CombateStyle1">Thrown Weapon</CombateStyle>
+  </CombateStyles>
+
+  <Archetypes>
+    <AlchemistArchetype id="AlchemistArchetype1">Inspired Chemist</AlchemistArchetype>
+
+    <ArcanistArchetype id="ArcanistArchetype1">Blade Adept</ArcanistArchetype>
+    <ArcanistArchetype id="ArcanistArchetype2">Blood Arcanist</ArcanistArchetype>
+    <ArcanistArchetype id="ArcanistArchetype3">Brown-fur Transmuter</ArcanistArchetype>
+    <ArcanistArchetype id="ArcanistArchetype4">Eldritch font</ArcanistArchetype>
+    <ArcanistArchetype id="ArcanistArchetype5">Elemental Master</ArcanistArchetype>
+    <ArcanistArchetype id="ArcanistArchetype6">Occultist</ArcanistArchetype>
+    <ArcanistArchetype id="ArcanistArchetype7">School Savant</ArcanistArchetype>
+    <ArcanistArchetype id="ArcanistArchetype8">Unlettered Arcanist</ArcanistArchetype>
+    <ArcanistArchetype id="ArcanistArchetype9">White Mage</ArcanistArchetype>
+
+    <BardArchetype id="BardArchetype1">Flame Dancer</BardArchetype>
+    <BardArchetype id="BardArchetype2">Voice of the Wild</BardArchetype>
+
+    <BloodragerArchetype id="BloodragerArchetype1">Blood Conduit</BloodragerArchetype>
+    <BloodragerArchetype id="BloodragerArchetype2">BloodRider</BloodragerArchetype>
+    <BloodragerArchetype id="BloodragerArchetype3">CrossBlooded Rager</BloodragerArchetype>
+    <BloodragerArchetype id="BloodragerArchetype4">GreenRager</BloodragerArchetype>
+    <BloodragerArchetype id="BloodragerArchetype5">MetaMagicRager</BloodragerArchetype>
+    <BloodragerArchetype id="BloodragerArchetype6">Primalist</BloodragerArchetype>
+    <BloodragerArchetype id="BloodragerArchetype7">Rageshaper</BloodragerArchetype>
+    <BloodragerArchetype id="BloodragerArchetype9">SpellEater</BloodragerArchetype>
+    <BloodragerArchetype id="BloodragerArchetype10">SteelBlood</BloodragerArchetype>
+    <BloodragerArchetype id="BloodragerArchetype11">Untouchable Rager</BloodragerArchetype>
+
+    <BrawlerArchetype id="BrawlerArchetype1">Exemplar</BrawlerArchetype>
+    <BrawlerArchetype id="BrawlerArchetype2">Mutagenic Mauler</BrawlerArchetype>
+    <BrawlerArchetype id="BrawlerArchetype3">Shield Champion</BrawlerArchetype>
+    <BrawlerArchetype id="BrawlerArchetype4">SnakeBite striker</BrawlerArchetype>
+    <BrawlerArchetype id="BrawlerArchetype5">Steel-Breaker</BrawlerArchetype>
+    <BrawlerArchetype id="BrawlerArchetype6">Strangler</BrawlerArchetype>
+    <BrawlerArchetype id="BrawlerArchetype7">Wild Child</BrawlerArchetype>
+
+    <CavalierArchetype id="CavalierArchetype1">Daring Champion</CavalierArchetype>
+
+    <ClericArchetype id="ClericArchetype1">Ecclesitheurge</ClericArchetype>
+
+    <DruidArchetype id="DruidArchetype1">Feral Shifter</DruidArchetype>
+    <DruidArchetype id="DruidArchetype2">Nature Fang</DruidArchetype>
+    <DruidArchetype id="DruidArchetype3">Wild Whisperer</DruidArchetype>
+
+    <FighterArchetype id="FighterArchetype1">Martial Master</FighterArchetype>
+    <FighterArchetype id="FighterArchetype2">Mutatoin Warrior</FighterArchetype>
+
+    <GunslingerArchetype id="GunslingerArchetype1">Blot Ace</GunslingerArchetype>
+
+    <HunterArchetype id="HunterArchetype1">Divine Hunter</HunterArchetype>
+    <HunterArchetype id="HunterArchetype2">Feral Hunter</HunterArchetype>
+    <HunterArchetype id="HunterArchetype3">PackMaster</HunterArchetype>
+    <HunterArchetype id="HunterArchetype4">Primal Companion hunter</HunterArchetype>
+    <HunterArchetype id="HunterArchetype5">Verminous hunter</HunterArchetype>
+
+    <InquisitorArchetype id="InquisitorArchetype1">Sacred HuntsMaster</InquisitorArchetype>
+    <InquisitorArchetype id="InquisitorArchetype2">Sanctified Slayer</InquisitorArchetype>
+
+    <InvestigatorArchetype id="InvestigatorArchetype1">Empiricist</InvestigatorArchetype>
+    <InvestigatorArchetype id="InvestigatorArchetype2">Infiltrator</InvestigatorArchetype>
+    <InvestigatorArchetype id="InvestigatorArchetype3">MasterMind</InvestigatorArchetype>
+    <InvestigatorArchetype id="InvestigatorArchetype4">sleuth</InvestigatorArchetype>
+    <InvestigatorArchetype id="InvestigatorArchetype5">Spiritualist</InvestigatorArchetype>
+    <InvestigatorArchetype id="InvestigatorArchetype6">steel Hound</InvestigatorArchetype>
+
+    <MagusArchetype id="MagusArchetype1">Eldritch Scion</MagusArchetype>
+
+    <MonkArchetype id="MonkArchetype1">Kata Master</MonkArchetype>
+    <MonkArchetype id="MonkArchetype2">Wildcat</MonkArchetype>
+
+    <OracleArchetype id="OracleArchetype1">Psychic Searcher</OracleArchetype>
+    <OracleArchetype id="OracleArchetype2">Spirit guide</OracleArchetype>
+    <OracleArchetype id="OracleArchetype3">Warsighted</OracleArchetype>
+
+    <PaladinArchetype id="PaladinArchetype1">Holy Guide</PaladinArchetype>
+    <PaladinArchetype id="PaladinArchetype2">Temple Champion</PaladinArchetype>
+
+    <RangerArchetype id="RangerArchetype1">Divine Tracker</RangerArchetype>
+    <RangerArchetype id="RangerArchetype2">Hooded Champion</RangerArchetype>
+    <RangerArchetype id="RangerArchetype3">Wild Hunter</RangerArchetype>
+
+    <RogueArchetype id="RogueArchetype1">Counterfeit Mage</RogueArchetype>
+    <RogueArchetype id="RogueArchetype2">underground Chemist</RogueArchetype>
+
+    <ShamanArchetype id="ShamanArchetype1">Animist</ShamanArchetype>
+    <ShamanArchetype id="ShamanArchetype2">Possessed Shaman</ShamanArchetype>
+    <ShamanArchetype id="ShamanArchetype3">Speaker for the Past</ShamanArchetype>
+    <ShamanArchetype id="ShamanArchetype4">Spirit Warden</ShamanArchetype>
+    <ShamanArchetype id="ShamanArchetype5">Unsworn Shaman</ShamanArchetype>
+    <ShamanArchetype id="ShamanArchetype6">Visionary</ShamanArchetype>
+    <ShamanArchetype id="ShamanArchetype7">Witch Doctor</ShamanArchetype>
+
+    <SkaldArchetype id="SkaldArchetype1">Fated Champion</SkaldArchetype>
+    <SkaldArchetype id="SkaldArchetype2">Herald of the Horn</SkaldArchetype>
+    <SkaldArchetype id="SkaldArchetype3">Spell Warrior</SkaldArchetype>
+    <SkaldArchetype id="SkaldArchetype4">Totemic Skald</SkaldArchetype>
+
+      <SlayerArchetype id="SlayerArchetype1">Bounty Hunter</SlayerArchetype>
+      <SlayerArchetype id="SlayerArchetype2">Cleaner</SlayerArchetype>
+      <SlayerArchetype id="SlayerArchetype3">Cutthroat</SlayerArchetype>
+      <SlayerArchetype id="SlayerArchetype4">Deliverer</SlayerArchetype>
+      <SlayerArchetype id="SlayerArchetype5">GraveWarden</SlayerArchetype>
+      <SlayerArchetype id="SlayerArchetype6">Sniper</SlayerArchetype>
+      <SlayerArchetype id="SlayerArchetype7">Stygian Slayer</SlayerArchetype>
+      <SlayerArchetype id="SlayerArchetype8">Vanguard</SlayerArchetype>
+
+      <SorcererArchetype id="SorcererArchetype1">Eldritch Scrapper</SorcererArchetype>
+      <SorcererArchetype id="SorcererArchetype2">Mongrel Mage</SorcererArchetype>
+
+      <SummonerArchetype id="SummonerArchetype1">Naturalist</SummonerArchetype>
+      <SummonerArchetype id="SummonerArchetype2">Spirit Summoner</SummonerArchetype>
+
+      <SwashbucklerArchetype id="SwashbucklerArchetype1">Daring Infiltrator</SwashbucklerArchetype>
+      <SwashbucklerArchetype id="SwashbucklerArchetype2">Flying Blade</SwashbucklerArchetype>
+      <SwashbucklerArchetype id="SwashbucklerArchetype3">Inspired Blade</SwashbucklerArchetype>
+      <SwashbucklerArchetype id="SwashbucklerArchetype4">Musketeer</SwashbucklerArchetype>
+      <SwashbucklerArchetype id="SwashbucklerArchetype5">Mysterious Avenger</SwashbucklerArchetype>
+      <SwashbucklerArchetype id="SwashbucklerArchetype6">Picaroon</SwashbucklerArchetype>
+
+      <WarpriestArchetype id="WarpriestArchetype1">Champion of Faith</WarpriestArchetype>
+      <WarpriestArchetype id="WarpriestArchetype2">Cult Leader</WarpriestArchetype>
+      <WarpriestArchetype id="WarpriestArchetype3">Disenchanter</WarpriestArchetype>
+      <WarpriestArchetype id="WarpriestArchetype4">Divine Commander</WarpriestArchetype>
+      <WarpriestArchetype id="WarpriestArchetype5">Forgedpriest</WarpriestArchetype>
+      <WarpriestArchetype id="WarpriestArchetype6">Scared Fist</WarpriestArchetype>
+
+      <WitchArchetype id="WitchArchetype1">Hex Channeler</WitchArchetype>
+      <WitchArchetype id="WitchArchetype2">Mountain witch</WitchArchetype>
+
+      <WizardArchetype id="WizardArchetype1">Exploiter Wizard</WizardArchetype>
+      <WizardArchetype id="WizardArchetype2">Spell Sage</WizardArchetype>
+      <WizardArchetype id="WizardArchetype3">Spirit Whisperer</WizardArchetype>
+    </Archetypes>
+</Pathfinder>

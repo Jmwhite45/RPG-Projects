@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--To Do for this XML file: find UA sub races-->
+<!DOCTYPE DnD [
+
+  <!ELEMENT DnD ANY >
+
+  <!ELEMENT Classes ANY>
+  <!ELEMENT Class ANY>
+  <!ATTLIST Class id ID #REQUIRED>
+
+  <!ELEMENT Races ANY>
+  <!ELEMENT Race ANY>
+  <!ATTLIST Race id ID #REQUIRED>
+  <!ELEMENT Tiefling ANY>
+  <!ATTLIST Tiefling id ID #REQUIRED>
+  <!ELEMENT halfSpawn ANY>
+  <!ATTLIST halfSpawn id ID #REQUIRED>
+  <!ELEMENT shifter ANY>
+  <!ATTLIST shifter id ID #REQUIRED>
+  <!ELEMENT Revenant ANY>
+  <!ATTLIST Revenant id ID #REQUIRED>
+
+  <!ELEMENT Barbarian ANY>
+  <!ELEMENT Path ANY>
+  <!ATTLIST Path id ID #REQUIRED>
+
+  <!ELEMENT Bard ANY>
+  <!ELEMENT College ANY>
+  <!ATTLIST College id ID #REQUIRED>
+  
+  <!ELEMENT Cleric ANY>
+  <!ELEMENT Domain ANY>
+  <!ATTLIST Domain id ID #REQUIRED>
+  
+  <!ELEMENT Druids ANY>
+  <!ELEMENT Circle ANY>
+  <!ATTLIST Circle id ID #REQUIRED>
+  
+  <!ELEMENT paladins ANY>
+  <!ELEMENT Oath ANY>
+  <!ATTLIST Oath id ID #REQUIRED>
+  
+  <!ELEMENT Monks ANY>
+  <!ELEMENT Way ANY>
+  <!ATTLIST Way id ID #REQUIRED>
+  
+  <!ELEMENT sorcerers ANY>
+  <!ELEMENT Bloodline ANY>
+  <!ATTLIST Bloodline id ID #REQUIRED>
+  
+  <!ELEMENT Wizards ANY>
+  <!ELEMENT school ANY>
+  <!ATTLIST school id ID #REQUIRED>
+  
+  <!ELEMENT Warlocks ANY>
+  <!ELEMENT Patreon ANY>
+  <!ATTLIST Patreon id ID #REQUIRED>
+  
+  <!ELEMENT Fighters ANY>
+  <!ELEMENT FighterArchetype ANY>
+  <!ATTLIST FighterArchetype id ID #REQUIRED>
+  
+  <!ELEMENT Rangers ANY>
+  <!ELEMENT RangerArchetype ANY>
+  <!ATTLIST RangerArchetype id ID #REQUIRED>
+  
+  <!ELEMENT Rogues ANY>
+  <!ELEMENT RogueArchetype ANY>
+  <!ATTLIST RogueArchetype id ID #REQUIRED>
+  
+  <!ELEMENT Artificers ANY>
+  <!ELEMENT Specialist ANY>
+  <!ATTLIST Specialist id ID #REQUIRED>
+  
+  <!ELEMENT Psionics ANY>
+  <!ELEMENT Porder ANY>
+  <!ATTLIST Porder id ID #REQUIRED>
+
+  <!ELEMENT FightingStyles ANY>
+  <!ELEMENT fightingStyle ANY>
+  <!ATTLIST fightingStyle id ID #REQUIRED>
+
+]>
+<DnD>
+  <Classes>
+    <Class id="Class13">Artificer</Class>
+    <Class id="Class14">Psionics</Class>
+  </Classes>
+  <Races>
+    <Race id="Race21">Half-Spawn</Race>
+    <Race id="Race22">Revenant</Race>
+    <Race id="Race23">Changeling</Race>
+    <Race id="Race24">Shifter</Race>
+    <Race id="Race25">Warforged</Race>
+    <Race id="Race26">Minotaur</Race>
+    <Tiefling id="tiefling1">Infernal</Tiefling>
+    <Tiefling id="tiefling2">Abysal</Tiefling>
+    <halfSpawn id="halfSpawn1">dwarf</halfSpawn>
+    <halfSpawn id="halfSpawn2">elf</halfSpawn>
+    <halfSpawn id="halfSpawn3">gnome</halfSpawn>
+    <halfSpawn id="halfSpawn4">Halfling</halfSpawn>
+    <shifter id="Shifter1">Beasthide</shifter>
+    <shifter id="Shifter2">Cliffwalk</shifter>
+    <shifter id="Shifter3">Longstride</shifter>
+    <shifter id="Shifter4">Longtooth</shifter>
+    <shifter id="Shifter5">Razorclaw</shifter>
+    <shifter id="Shifter6">Wildhunt</shifter>
+    <Revenant id="Revenant1">Dwarf</Revenant>
+    <Revenant id="Revenant2">Elf</Revenant>
+    <Revenant id="Revenant3">Gnome</Revenant>
+    <Revenant id="Revenant4">Halfling</Revenant>
+    <Revenant id="Revenant5">Human</Revenant>
+    <Revenant id="Revenant6">Half-Spawn</Revenant>
+    <Revenant id="Revenant7">Shifter</Revenant>
+  </Races>
+  <Barbarian>
+    <Path id="Path4">Path of the BloodRage Savage</Path>
+    <Path id="Path5">Path of the Ancestral Guardian</Path>
+    <Path id="Path6">Path of the Storm Herald</Path>
+    <Path id="Path7">Path of the Zealot</Path>
+  </Barbarian>
+  <Bard>
+    <College id="College3">College of Glamour</College>
+    <College id="College4">College of Whispers</College>
+    <College id="College5">College of Swords</College>
+    <College id="College6">College of Satire</College>
+  </Bard>
+  <Cleric>
+    <Domain id="Domain13">Forge Domain</Domain>
+    <Domain id="Domain14">Grave Domain</Domain>
+    <Domain id="Domain15">Protection Domain</Domain>
+    <Domain id="Domain16">City Domain</Domain>
+  </Cleric>
+  <Druids>
+    <Circle id="Circle3">Circle of the Beast</Circle>
+    <Circle id="Circle4">Circle of the Death Bloom</Circle>
+    <Circle id="Circle5">Circle of the Fountain</Circle>
+    <Circle id="Circle6">Circle of Dreams</Circle>
+    <Circle id="Circle7">Circle of the Shepherd</Circle>
+    <Circle id="Circle8">Circle of Twilight</Circle>
+  </Druids>
+  <paladins>
+  <Oath id="Oath5">Oath of Conquest</Oath>
+  <Oath id="Oath6">Oath of Treachery</Oath>
+</paladins>
+  <Monks>
+  <Way id="Way6">Way of the Kensei</Way>
+  <Way id="Way7">Way of Tranquility</Way>
+</Monks>
+  <sorcerers>
+    <Bloodline id="Bloodline4">King's Blood</Bloodline>
+    <Bloodline id="Bloodline5">Shadow</Bloodline>
+    <Bloodline id="Bloodline6">Favored Soul</Bloodline>
+    <Bloodline id="Bloodline7">Phoenix Sorcery</Bloodline>
+    <Bloodline id="Bloodline8">Sea Sorcery</Bloodline>
+    <Bloodline id="Bloodline9">Stone Sorcery</Bloodline>
+  </sorcerers>
+  <Wizards>
+    <school id="school10">Blood Magic(V1)</school>
+    <school id="school11">Blood Magic(V2)</school>
+    <school id="school12">Artificer</school>
+    <school id="school13">Technomancy</school>
+    <school id="school14">Lore Mastery</school>
+    <school id="school15">Theurgy</school>
+    <school id="school16">War Magic</school>
+  </Wizards>
+  <Warlocks>
+    <Patreon id="Partron5">The Undying Light</Patreon>
+    <Patreon id="Partron6">Ghost in the Machine</Patreon>
+    <Patreon id="Partron7">The Seeker</Patreon>
+    <Patreon id="Partron8">The Hexblade</Patreon>
+    <Patreon id="Partron9">The Raven Queen</Patreon>
+  </Warlocks>
+  <Fighters>
+    <FighterArchetype id="FighterArch4">Blood Thrall</FighterArchetype>
+    <FighterArchetype id="FighterArch5">Arcane Archer</FighterArchetype>
+    <FighterArchetype id="FighterArch6">Knight</FighterArchetype>
+    <FighterArchetype id="FighterArch7">Samurai</FighterArchetype>
+    <FighterArchetype id="FighterArch8">SharpShooter</FighterArchetype>
+    <FighterArchetype id="FighterArch9">Monster Hunter</FighterArchetype>
+    <FighterArchetype id="FighterArch10">Cavalier</FighterArchetype>
+    <FighterArchetype id="FighterArch11">Scout</FighterArchetype>
+  </Fighters>
+  <Rangers>
+    <RangerArchetype id="RangerArch3">Deep Stalker</RangerArchetype>
+    <RangerArchetype id="RangerArch4">Horizon Walker</RangerArchetype>
+    <RangerArchetype id="RangerArch5">Primeval Guardian</RangerArchetype>
+  </Rangers>
+  <Rogues>
+    <RogueArchetype id="RogueArch3">Inguisitive</RogueArchetype> 
+    <RogueArchetype id="RogueArch4">Scout</RogueArchetype> 
+  </Rogues>
+<Artificers>
+  <Specialist id="Specialist1">Alchemist</Specialist>
+  <Specialist id="Specialist2">Gunsmith</Specialist>
+</Artificers>
+
+<Psionics>
+  <Porder id ="POrder1">Order of the Awakened</Porder>
+  <Porder id ="POrder2">Order of the Immortal</Porder>
+</Psionics>
+
+<FightingStyles>
+  <fightingStyle id="FightingStyle5">Mariner</fightingStyle>
+  <fightingStyle id="FightingStyle6">Close Quarters Shooter</fightingStyle>
+  <fightingStyle id="FightingStyle7">Tunnel Fighter</fightingStyle>
+</FightingStyles>
+</DnD>
+

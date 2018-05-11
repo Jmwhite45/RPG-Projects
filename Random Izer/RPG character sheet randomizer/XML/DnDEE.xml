@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE DnD [
+  <!ELEMENT DnD ANY >
+
+  <!ELEMENT Races ANY>
+  <!ELEMENT Race ANY>
+  <!ATTLIST Race id ID #REQUIRED>
+]>
+<DnD>
+  <Races>
+    <Race id="Race33">Aarakocra</Race>
+    <Race id="Race34">Deep Gnome</Race>
+    <Race id="Race35">Goliath(Elemental Evil)</Race>
+    <Race id="Race36">Genasi</Race>
+  </Races>
+</DnD>

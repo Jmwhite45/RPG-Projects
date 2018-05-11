@@ -1,0 +1,255 @@
+﻿/---------------------------------------------------\
+|													|
+|Random Character Generation Change log and credits |
+|													|
+\---------------------------------------------------/
+
+*----------*
+*CHANGE LOG*
+*----------*
+
+1.2.0()
+-------
+XML update:
+	Converted Current Pathfinder information to XML.
+
+JSON update:
+	Converted DnD5e to JSON
+	
+Code Updates:
+	Converted the Stats to arrays instead of linked lists for easier reading of the code
+	
+New Content:
+	Added Class powers for a more detailed randomization. Note at the current moment I still need to add requirements for them
+	Added Levels
+	Added HP and Gold for DnD5e
+	
+	
+Dev Notes:
+	This was a HUGE update and I was not always up to date with the change log so I may have missed stuff or added things here that happened in 
+	previous update.
+
+1.1.1(5/26/2017)
+----------------
+the Background was made legal :( that Image was amazing
+ReDid some of the graphics to make it look Better
+Added Open gameing liscenes and other legal information at the end of this File
+removed Class Images because it would break the Open Game License found at the bottom of this file.
+
+Dev notes: I know this is a lack luster update but this is extremely important. This update makes me not get sued by people. There is more on the way. I am currently working on
+converting the information over to XML for easy editing of the information and so soon Custom classes and such can be added by users to their personal programs with it being easy
+to switch version without loseing your data. Also if the system is sold enough I may try to see if the owner of the origenal image would allow me use that image for a price.
+
+
+
+1.1.0(5/21/2017)
+----------------
+Cosmetic changes:
+	- added missing :
+	- lined up things better
+
+Bug Fixes:
+	- Made it so that you cant resize the screen
+	- Fixed a few typos
+	
+New Things:
+	- Added Pathfinder's Advanced Class Guide classes
+	- Added Pathfinder's Advanced Player's Guide Classes
+	- Added Pathfinder's Advanced Races Guide Races
+	- Added D&D's Volo's guide to Monsters Races
+	- Added D&D's The Sword Coast Adventures Guide sub classes, sub races, and backgrounds
+	- Added D&D's Elemental Evil Players Compainion  Races
+	- Added Unearthed arcana Classes, Sub Classes, Races, and sub races
+	- Added Archetypes for the Ranger, fighter, and Rogue
+	- Randomized the fighting style of your character
+	Dev Notes: THIS IS SO EASY TO ADD EXPANSIONS I LOVE IT !!!!!!!!
+	
+	- Added change log and credits
+	- Added Images for the following pathfinder books: Core rule book, Advanced Class Guide, and Advanced Player's Guide
+		- This Image will appear when you get a randomized character and it will be an image of the class you where given
+	- Added Images for D&D classes like above.
+	- Added Traits, Ideals, bonds, and flaw randomization
+	- Added Dev Mode
+
+1.0(5/17/2017)
+-------------
+Inital Release
+
+
+
+*-------------------------------------------------*
+* to do list/ whats comeing(eventually/hopefully) *
+*-------------------------------------------------*
+ReWrite to do list
+
+Add Comments to Code
+ReWork documentation files
+-alchemist discoveries
+change D&D to XML
+Add the ability to add custom races, classes ... to the randomizer
+Add a non code visual data design with numbers
+Think about using attributs for requirements for classes/backgrounds
+Add a antipalidin check box
+Pathfinder Combate styles
+Read through the pathfinder rule books to see if there is more to randomize(Combate styles)
+Add Rogue talents randomizing(there are more in APG)
+Look into Prohibited schools for wizards
+Look into Updating without uninstalling
+add copy right information for D&D rule books
+Add barbarians(and skald) rage powers, alchemist discoveries,
+Review all rules
+Add traits  from Ultamate campagin  and Advanced Players guide
+add ultimate Combate, ultimate magic, and ultimate Campaign
+ACG has magus Arcana
+Randomize starting wealth for pathfinder
+slayer receives combate styles
+use Arrays for stats
+Randomize health
+convert to a dice system using only D$, D6, D8, D12, D20, and D100
+
+Add new information found
+
+Blood arcanist- has sorcerer bloodline
+Divine Hunter- diety and domain
+ACG Divine tracker has deity
+School Savant- has wizard school
+draconic blood, rage power ACG randomize energy type
+same with elemental blood
+special Rules with rager
+
+*----------*
+* Road map *
+*----------*
+Add new information that was found in the advanced guides to the randomizer
+|
+|
+\/
+Add Levels
+|
+|
+\/
+Add Ultimate Guides
+|
+|
+\/
+Convert D&D Data to XML
+|
+|
+\/
+Add the ability to add custom classes, Races...(Document how you do this)
+|
+|
+\/
+Other new material
+
+*--------*
+*CREDITS:*
+*--------*
+Designer: Jonah White
+Programmer: Jonah White
+Insperation: Tennessee Tech D&D club/William Johnson
+Image creator: Jonah White
+
+Wizards of the Coast owns all D&D Images and information used
+Paizo owns all Pathfinder images and Information used
+This Program was programmed useing visual studio by microsoft
+Also used where Notepad++(highly suggest using it) and adobe's PDF reader
+
+
+Thanks to the creative minds at Paizo and Wizards of the Coast for making such a fun game.
+
+
+*------------------*
+*Legal information:*
+*------------------*
+
+Any Versions of this program made prior to version 1.1.1 break the Following license and other copy Right laws and thus are Illegal to Distribute or sell. If anyone has a copy
+of version 1.0.0 or 1.1.0 They will receive a free ungrade upon uninstallation and deletion of the material(This only applies to the two copies of the program that where shown to
+friends before it was made legal if anyother person then the two original people claim they have a copy of an illegal copy of the program they may get sued for stealing the program)
+
+Product Identity: The following items are hereby identified as Product Identity, as defined in the Open Game License 1.0a, Section 1(e), and are not Open Content: All trademarks,
+registered trademarks, proper names (Those which are used from other games may or may not be covered by their respected Open Game License), and artworks. 
+(Elements that have previously been designated as Open Game Content are not included in this declaration.)
+
+for a not-so-legally-creditable clearification: Product Identity includes the Random Izer name, Random Izer logo, and the Background Image. All other material is owned under another Licenses.
+
+Open Content: Nothing of my own
+
+
+
+OPEN GAME LICENSE Version 1.0a
+
+The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000
+Wizards of the Coast, Inc (“Wizards”). All Rights Reserved.
+
+1. Definitions: (a) “Contributors” means the copyright and/or trademark owners who have contributed Open Game Content; (b) “Derivative Material” means copyrighted material
+including derivative works and translations (including into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement,
+compilation, abridgment or other form in which an existing work may be recast, transformed or adapted; (c) “Distribute” means to reproduce, license, rent, lease, sell,
+broadcast, publicly display, transmit or otherwise distribute; (d) “Open Game Content” means the game mechanic and includes the methods, procedures, processes and routines
+to the extent such content does not embody the Product Identity and is an enhancement over the prior art and any additional content clearly identified as Open Game Content
+by the Contributor, and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity.
+(e) “Product Identity” means product and product line names, logos and identifying marks including trade dress; artifacts, creatures, characters, stories, storylines, plots,
+thematic elements, dialogue, incidents, language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual
+or audio representations; names and descriptions of characters, spells, enchantments, personalities, teams, personas, likenesses and special abilities; places, locations,
+environments, creatures, equipment, magical or supernatural abilities or effects, logos, symbols, or graphic designs; and any other trademark or registered trademark clearly
+identified as Product identity by the owner of the Product Identity, and which specifically excludes the Open Game Content; (f ) “Trademark” means the logos, names, mark, sign,
+motto, designs that are used by a Contributor to identify itself or its products or the associated products contributed to the Open Game License by the Contributor (g) “Use”,
+“Used” or “Using” means to use, Distribute, copy, edit, format, modify, translate and otherwise create Derivative Material of Open Game Content. (h) “You” or “Your” means
+the licensee in terms of this agreement. 2. The License: This License applies to any Open Game Content that contains a notice
+indicating that the Open Game Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content that you Use. No terms
+may be added to or subtracted from this License except as described by the License itself. No other terms or conditions may be applied to any Open Game Content distributed using
+this License.
+
+3. Offer and Acceptance: By Using the Open Game Content You indicate Your acceptance of the terms of this License.
+
+4. Grant and Consideration: In consideration for agreeing to use this License, the Contributors grant You a perpetual, worldwide, royalty-free, non-exclusive license with the
+exact terms of this License to Use, the Open Game Content.
+
+5. Representation of Authority to Contribute: If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original creation and/or
+You have sufficient rights to grant the rights conveyed by this License.
+
+6. Notice of License Copyright: You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content
+You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder’s name to the COPYRIGHT NOTICE of any original Open Game
+Content you Distribute.
+
+7. Use of Product Identity: You agree not to Use any Product Identity, including as an indication as to compatibility, except as expressly licensed in another, independent Agreement with the
+owner of each element of that Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered Trademark in conjunction with a work
+containing Open Game Content except as expressly licensed in another, independent Agreement with the owner of such Trademark or Registered Trademark. The use of any
+Product Identity in Open Game Content does not constitute a challenge to the ownership of that Product Identity. The owner of any Product Identity used in Open Game Content shall
+retain all rights, title and interest in and to that Product Identity.
+
+8. Identification: If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.
+
+9. Updating the License: Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and
+distribute any Open Game Content originally distributed under any version of this License.
+
+10. Copy of this License: You MUST include a copy of this License with every copy of the Open Game Content You distribute.
+
+11. Use of Contributor Credits: You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor
+to do so.
+
+12. Inability to Comply: If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order,
+or governmental regulation then You may not Use any Open Game Material so affected.
+
+13. Termination: This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All
+sublicenses shall survive the termination of this License.
+
+14. Reformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.
+
+15. COPYRIGHT NOTICE
+	Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+	
+	System Reference Document. Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+	
+	Advanced Player’s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn.
+	
+	Pathfinder RPG Core Rulebook. Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
+	
+	Pathfinder Roleplaying Game Advanced Race Guide © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, 
+Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor.
+
+	Pathfinder Roleplaying Game Advanced Class Guide © 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock,
+Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and
+Russ Taylor.
+
+	Random Izer © 2017, Jonah M. White.

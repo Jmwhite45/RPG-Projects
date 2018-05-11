@@ -1,0 +1,17 @@
+﻿{
+  "Barbarian": [ "Path of the BattleRager" ],
+  "Cleric": ["Arcana Domain"],
+  "Paladins": [ "Oath of the crown" ],
+  "Monk": [ "Way of the Long Death", "Way of the Sun Soul" ],
+  "Sorcerer": [ "Storm Sorcery" ],
+  "Wizard": [ "Bladesinging" ],
+  "Fighters": [ "Purple Dragon Knight" ],
+  "Rogue": [ "MasterMind", "Swashbuckler" ],
+
+  "Dwarf": [ "Gray" ],
+  "Gnome": [ "Deep" ],
+
+  "Background": ["City Watch", "Clan Crafter", "Cloistered scholar", "Coutier", "Faction Agent",
+    "Far Tarveler", "Inheritor", "Knight of the Order", "Nercenary Veteran", "Urban Bounty Hunter",
+    "Uthgardt Tribe Member", "terdhavian Nobel"]
+}

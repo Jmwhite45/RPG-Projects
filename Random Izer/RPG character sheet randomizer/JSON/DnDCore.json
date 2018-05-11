@@ -1,0 +1,49 @@
+﻿{
+  "Class": [ "Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard" ],
+
+  "Race": [ "Dwarf", "Elf", "Halfling", "Human", "Dragonborn", "Gnome", "Half-Elf", "Half-Orc", "Tiefling" ],
+  "Dwarf": [ "Hill", "Mountain" ],
+  "Elf": [ "High", "Wood", "Dark" ],
+  "Gnome": [ "Forest", "rock" ],
+  "Halfling": [ "LightFoot", "Stout" ],
+  "Dragon": [ "Black", "Blue", "Brass", "Bronze", "Copper", "Gold", "Green", "Red", "Silver", "White" ],
+
+  "Barbarian": [ "Path of the Beserker", "Path of the Totem Warrior" ],
+  "Totem": [ "Bear", "eagle", "wolf" ],
+
+  "Bard": [ "College of Lore", "College of Valor" ],
+
+  "Cleric": [ "Knowledge Domain", "Life Domain", "Light Domain", "Nature Domain", "Tempest Domain", "Trickery Domain", "War Domain" ],
+
+  "Druid": [ "Circle of the Land", "Circle of the Moon" ],
+
+  "Fighter": [ "Champion", "Battle Master", "Eldrich Knight" ],
+  "Maneuver": ["Commander's Stríke","Dísarmíng Attack","Dístractíng Strike","Evasive Footwork", "Feínting Attack", "Goading Attack", "Lunging Attack", "Maneuveríng Attack","Menacing Attack",  "Parry","Precision Attack", "Pushing Attack", "Rally", "Ríposte", "Sweeping Attack", "TripAttack"],
+
+  "Monk": [ "the Way of the Open Hand", "the Way of Shadow", "the Way of the Four Elements" ],
+  "Discipline": [ "Breath of Winter", "Clench of the North Wind", "Elemental Attunement", "Eternal Mountain Defense", "Fangs of the Fire Snake", "Fist of Four Thunders", "Fist of Unbroken Air", "Flames of the Phoenix", "Gong ofthe Summit", "Mist Stance", "Ride the Wind", "River of Hungry Flame", "Rush of the Gale Spirits", "Shape the Flowing River", "Sweeping Cinder Strike", "Water Whip", "Wave of Rolling Earth" ],
+
+  "Paladin": [ "Oath of Devotion", "Oath of the Ancients", "Oath of Vengeance" ],
+
+  "Ranger": [ "Hunter", "Beast Master" ],
+  "Favored Enemy": [ "aberrations", "beasts", "celestiais", "constructs", "dragons", "elementals", "fey", "fiends", "giants", "monstrosities", "oozes", "plants", "undead", "humanoid" ],
+  "Favored Terrain": [ "arctic", "coast", "desert", "forest", "grassland", "mountain", "swamp", "Underdark" ],
+  "Hunters Prey": [ "Cossus Slayer", "Giant Killer", "Horde Breaker" ],
+  "Defensive Tactic": [ "Escape the Horde", "Multiattack Defense", "Steel Will" ],
+  "Multiattack": [ "Volley", "Whirlwind Attack" ],
+  "Superior Defense": [ "Evasion", "Stand Against the Tide", "Uncanny Dodge" ],
+
+  "Rogue": [ "Theif", "Assassin", "Arcane Trickster" ],
+
+  "Sorcerer": [ "draconic", "Wild Magic" ],
+  "MetaMagic": [ "Careful Spell", "Distant Spell", "Empowered Spell", "Extended Spell", "Heightened Spell", "Quickened Spell", "subtle Spell", "Twinned Spell" ],
+
+  "Warlock": [ "Pact of the Chain", "Pact of the Blade", "Pact of the Tome" ],
+  "Invocation": [ "Agonizing blast", "Armor of Shadows", "Ascentdant Step", "Beast Speech", "Beguilding Influence", "Bewitching Whispers", "Book of Ancient Secrets", "Chains of Careri", "Devil's Sight", "Dreadful Word", "Eldritch Sight", "Eldritch Spear", "Eyes of the Rune Keeper", "Fiendish Vigor", "Gaze of two Minds", "LifeDrinker", "Mask of many faces", "Master of Myriad forms", "Minions of Chaos", "Mire the Mind", "Misty Visions", "One with Shadoes", "Otherworldly Leap", "Repelling Blast", "Sculptor of Flesh", "sign of Ill Omen", "theif of five fates", "Thirsting Blade", "Visions of Distant Realms", "Voice of the chain master", "Whispers of the Grave", "Witch Sight" ],
+  "patron": [ "Archfey", "The Fiend", "The Great Old One" ],
+
+  "wizard": [ "Abjuration", "Conjuration", "Divination", "Enchantment", "Evocation", "Illusion", "Necromancy", "Transmutation" ],
+
+  "Background": [ "Acolyte", "Charlatan", "Criminal", "Entertainer", "Folk Hero", "Guild Artisan", "Hermit", "Nobel", "Outlander", "Sage", "Sailor", "Soldier", "Urchin" ]
+
+}

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE DnD [
+  <!ELEMENT DnD ANY >
+
+  <!ELEMENT Races ANY>
+  <!ELEMENT Race ANY>
+  <!ATTLIST Race id ID #REQUIRED>
+
+  <!ELEMENT Barbarians ANY>
+  <!ELEMENT Path ANY>
+  <!ATTLIST Path id ID #REQUIRED>
+
+  <!ELEMENT Clerics ANY>
+  <!ELEMENT Domain ANY>
+  <!ATTLIST Domain id ID #REQUIRED>
+
+  <!ELEMENT Paladins ANY>
+  <!ELEMENT Oath ANY>
+  <!ATTLIST Oath id ID #REQUIRED>
+
+  <!ELEMENT Monks ANY>
+  <!ELEMENT Way ANY>
+  <!ATTLIST Way id ID #REQUIRED>
+
+  <!ELEMENT Sorcerers ANY>
+  <!ELEMENT Bloodline ANY>
+  <!ATTLIST Bloodline id ID #REQUIRED>
+
+  <!ELEMENT Wizards ANY>
+  <!ELEMENT School ANY>
+  <!ATTLIST School id ID #REQUIRED>
+
+  <!ELEMENT Fighters ANY>
+  <!ELEMENT FighterArch ANY>
+  <!ATTLIST FighterArch id ID #REQUIRED>
+
+  <!ELEMENT Rogues ANY>
+  <!ELEMENT RogueArch ANY>
+  <!ATTLIST RogueArch id ID #REQUIRED>
+
+  <!ELEMENT Races ANY>
+  <!ELEMENT Dwarf ANY>
+  <!ATTLIST Dwarf id ID #REQUIRED>
+  <!ELEMENT Gnome ANY>
+  <!ATTLIST Gnome id ID #REQUIRED>
+
+  <!ELEMENT Backgrounds ANY>
+  <!ELEMENT Background ANY>
+  <!ATTLIST Background id ID #REQUIRED>
+]>
+ <DnD>
+  <Barbarians>
+    <Path id="Path8">Path of the BattleRager</Path>
+  </Barbarians>
+   <Clerics>
+     <Domain id="Domain17">Arcana Domain</Domain>
+   </Clerics>
+   <Paladins>
+     <Oath id="Oath7">Oath of the crown</Oath>
+   </Paladins>
+   <Monks>
+     <Way id="way8">Way of the Long Death</Way>
+     <Way id="way9">Way of the Sun Soul</Way>
+   </Monks>
+   <Sorcerers>
+     <Bloodline id="Bloodline10">Storm Sorcery</Bloodline>
+   </Sorcerers>
+   <Wizards>
+     <School id="school17">Bladesinging</School>
+   </Wizards>
+    <Fighters>
+      <FighterArch id="FighterArch12">Purple Dragon Knight</FighterArch>
+    </Fighters>
+   <Rogues>
+     <RogueArch id="RogueArch5">MasterMind</RogueArch>
+       <RogueArch id="RogueArch6">Swashbuckler</RogueArch>
+   </Rogues>
+   <Races>
+     <Dwarf id="Dwarf3">Gray</Dwarf>
+      <Gnome id="Gnome4">Deep</Gnome>
+   </Races>
+   <Backgrounds>
+     <background id="Background14">City Watch</background>
+     <background id="Background15">Clan Crafter</background>
+     <background id="Background16">Cloistered scholar</background>
+     <background id="Background17">Coutier</background>
+     <background id="Background18">Faction Agent</background>
+     <background id="Background19">Far Tarveler</background>
+     <background id="Background20">Inheritor</background>
+     <background id="Background21">Knight of the Order</background>
+     <background id="Background22">Nercenary Veteran</background>
+     <background id="Background23">Urban Bounty Hunter</background>
+     <background id="Background24">Uthgardt Tribe Member</background>
+     <background id="Background25">Waterdhavian Nobel</background>
+   </Backgrounds>
+</DnD>

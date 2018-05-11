@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE DnD [
+  <!ELEMENT DnD ANY >
+  
+  <!ELEMENT Races ANY>
+  <!ELEMENT Race ANY>
+  <!ATTLIST Race id ID #REQUIRED>
+  <!ELEMENT Aasimar ANY>
+  <!ATTLIST Aasimar id ID #REQUIRED>
+  <!ELEMENT Revenant ANY>
+  <!ATTLIST Revenant id ID #REQUIRED>
+]>
+<DnD>
+  <Races>
+    <Race id="Race27">Aasimar</Race>
+    <Race id="Race28">Firbolg</Race>
+    <Race id="Race29">Goliath(Volo's guide to Monsters)</Race>
+    <Race id="Race30">Kenku</Race>
+    <Race id="Race31">LizardFolk</Race>
+    <Race id="Race32">Triton</Race>
+    <Revenant id="Revenant7">Aasimar</Revenant>
+    <Aasimar id ="Aasimar1">Protector</Aasimar>
+    <Aasimar id ="Aasimar2">Scourge</Aasimar>
+    <Aasimar id ="Aasimar3">Fallen</Aasimar>
+  </Races>
+</DnD>
