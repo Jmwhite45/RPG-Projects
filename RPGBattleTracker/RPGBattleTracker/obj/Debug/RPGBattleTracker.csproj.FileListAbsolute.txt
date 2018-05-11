@@ -1,0 +1,11 @@
+c:\users\legoj\documents\visual studio 2017\Projects\RPGBattleTracker\RPGBattleTracker\bin\Debug\RPGBattleTracker.exe.config
+c:\users\legoj\documents\visual studio 2017\Projects\RPGBattleTracker\RPGBattleTracker\bin\Debug\RPGBattleTracker.exe
+c:\users\legoj\documents\visual studio 2017\Projects\RPGBattleTracker\RPGBattleTracker\bin\Debug\RPGBattleTracker.pdb
+c:\users\legoj\documents\visual studio 2017\Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.csprojResolveAssemblyReference.cache
+c:\users\legoj\documents\visual studio 2017\Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.CreatePlayerForm.resources
+c:\users\legoj\documents\visual studio 2017\Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.Form1.resources
+c:\users\legoj\documents\visual studio 2017\Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.Properties.Resources.resources
+c:\users\legoj\documents\visual studio 2017\Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.csproj.GenerateResource.Cache
+c:\users\legoj\documents\visual studio 2017\Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.exe
+c:\users\legoj\documents\visual studio 2017\Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.pdb
+C:\Users\legoj\documents\visual studio 2017\Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.CreateNPCForm.resources
