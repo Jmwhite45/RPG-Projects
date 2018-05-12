@@ -88,5 +88,15 @@ namespace RPGBattleTracker
         {
             return Level;
         }
+
+        public void setHP(int newHP)
+        {
+            CurrentHP = newHP;
+        }
+
+        public void addDamage(int Damage)
+        {
+            CurrentHP -= Damage;
+        }
     }
 }

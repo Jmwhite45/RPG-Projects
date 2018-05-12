@@ -31,6 +31,7 @@ namespace RPGBattleTracker
         private CreatePlayerForm CPform;
         private CreateNPCForm CNform;
         private Player_Initative_Form AIform;
+        private DamageForm Dform;
 
         private Player CurrentPlayer;
         private NPC CurrentNPC;
@@ -48,9 +49,11 @@ namespace RPGBattleTracker
                 playerList.Remove(CurrentPlayer);
             }
             playerList.Add(CPform.finishedPlayer);
+            CurrentPlayer = CPform.finishedPlayer;
             updatePlayers();
             CPform.Close();
             this.Show();
+            DisplayPlayer();
         }
 
         public List<Player> getPlayerList()
@@ -58,13 +61,28 @@ namespace RPGBattleTracker
             return playerList;
         }
 
-        public void CreateNPCDone()
+        public void CreateNPCDone(bool add)
         {
             activeForm = form.MAIN;
-            NPCList.AddRange(CNform.finishedPlayer.ToList());
+            List<NPC> list = CNform.finishedNPC.ToList();
+            if (add == false)
+            {
+                NPCList.Remove(CurrentNPC);
+                CurrentNPC = CNform.finishedNPC[0];
+            }
+            NPCList.AddRange(CNform.finishedNPC.ToList());
             updateNPCs();
             CNform.Close();
             this.Show();
+            DisplayNPC();
+        }
+
+        public void DamageDone()
+        {
+            Dform.Close();
+            this.Show();
+            DisplayPlayer();
+            DisplayNPC();
         }
 
         public void AddToInit(List<Character> c)
@@ -325,6 +343,36 @@ namespace RPGBattleTracker
             {
                 CPform = new CreatePlayerForm(this, CurrentPlayer);
                 CPform.Show();
+                this.Hide();
+            }
+        }
+
+        private void PlayerAddDamage_Click(object sender, EventArgs e)
+        {
+            if (CurrentPlayer != null)
+            {
+                Dform = new DamageForm(this, CurrentPlayer);
+                Dform.Show();
+                this.Hide();
+            }
+        }
+
+        private void NPCaddDamage_Click(object sender, EventArgs e)
+        {
+            if (CurrentNPC != null)
+            {
+                Dform = new DamageForm(this, CurrentNPC);
+                Dform.Show();
+                this.Hide();
+            }
+        }
+
+        private void EditNPCbtn_Click(object sender, EventArgs e)
+        {
+            if (CurrentNPC != null)
+            {
+                CNform = new CreateNPCForm(this, CurrentNPC);
+                CNform.Show();
                 this.Hide();
             }
         }

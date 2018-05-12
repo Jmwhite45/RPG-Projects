@@ -58,5 +58,40 @@ namespace RPGBattleTracker
         {
             return CurrentHP;
         }
+
+        public string getNotes()
+        {
+            return CharacterNotes;
+        }
+
+        public int getInit()
+        {
+            return initiative;
+        }
+
+        public string getType()
+        {
+            return Type;
+        }
+
+        public string getSize()
+        {
+            return Size;
+        }
+
+        public void setHP(int newHP)
+        {
+            CurrentHP = newHP;
+        }
+
+        public void SetName(string newName)
+        {
+            Name = newName;
+        }
+
+        public void addDamage(int Damage)
+        {
+            CurrentHP -= Damage;
+        }
     }
 }

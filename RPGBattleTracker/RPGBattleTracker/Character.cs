@@ -10,5 +10,6 @@ namespace RPGBattleTracker
     {
        int GetInit();
        string GetName();
+        void addDamage(int Damage);
     }
 }

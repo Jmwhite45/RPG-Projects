@@ -45,9 +45,9 @@
             this.CharacterDisplay = new System.Windows.Forms.Label();
             this.PlayerDisplay = new System.Windows.Forms.Label();
             this.btnEditPlayer = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.PlayerAddDamage = new System.Windows.Forms.Button();
+            this.NPCaddDamage = new System.Windows.Forms.Button();
+            this.EditNPCbtn = new System.Windows.Forms.Button();
             this.NPCNameDisplay = new System.Windows.Forms.Label();
             this.NPCHPDisplay = new System.Windows.Forms.Label();
             this.CRDisplay = new System.Windows.Forms.Label();
@@ -213,32 +213,35 @@
             this.btnEditPlayer.UseVisualStyleBackColor = true;
             this.btnEditPlayer.Click += new System.EventHandler(this.btnEditPlayer_Click);
             // 
-            // button3
+            // PlayerAddDamage
             // 
-            this.button3.Location = new System.Drawing.Point(541, 209);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(92, 25);
-            this.button3.TabIndex = 21;
-            this.button3.Text = "Add Damage";
-            this.button3.UseVisualStyleBackColor = true;
+            this.PlayerAddDamage.Location = new System.Drawing.Point(541, 209);
+            this.PlayerAddDamage.Name = "PlayerAddDamage";
+            this.PlayerAddDamage.Size = new System.Drawing.Size(92, 25);
+            this.PlayerAddDamage.TabIndex = 21;
+            this.PlayerAddDamage.Text = "Add Damage";
+            this.PlayerAddDamage.UseVisualStyleBackColor = true;
+            this.PlayerAddDamage.Click += new System.EventHandler(this.PlayerAddDamage_Click);
             // 
-            // button4
+            // NPCaddDamage
             // 
-            this.button4.Location = new System.Drawing.Point(685, 209);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(92, 25);
-            this.button4.TabIndex = 25;
-            this.button4.Text = "Add Damage";
-            this.button4.UseVisualStyleBackColor = true;
+            this.NPCaddDamage.Location = new System.Drawing.Point(685, 209);
+            this.NPCaddDamage.Name = "NPCaddDamage";
+            this.NPCaddDamage.Size = new System.Drawing.Size(92, 25);
+            this.NPCaddDamage.TabIndex = 25;
+            this.NPCaddDamage.Text = "Add Damage";
+            this.NPCaddDamage.UseVisualStyleBackColor = true;
+            this.NPCaddDamage.Click += new System.EventHandler(this.NPCaddDamage_Click);
             // 
-            // button5
+            // EditNPCbtn
             // 
-            this.button5.Location = new System.Drawing.Point(685, 178);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(92, 25);
-            this.button5.TabIndex = 24;
-            this.button5.Text = "Edit Character";
-            this.button5.UseVisualStyleBackColor = true;
+            this.EditNPCbtn.Location = new System.Drawing.Point(685, 178);
+            this.EditNPCbtn.Name = "EditNPCbtn";
+            this.EditNPCbtn.Size = new System.Drawing.Size(92, 25);
+            this.EditNPCbtn.TabIndex = 24;
+            this.EditNPCbtn.Text = "Edit Character";
+            this.EditNPCbtn.UseVisualStyleBackColor = true;
+            this.EditNPCbtn.Click += new System.EventHandler(this.EditNPCbtn_Click);
             // 
             // NPCNameDisplay
             // 
@@ -273,11 +276,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(954, 348);
             this.Controls.Add(this.CRDisplay);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.NPCaddDamage);
+            this.Controls.Add(this.EditNPCbtn);
             this.Controls.Add(this.NPCNameDisplay);
             this.Controls.Add(this.NPCHPDisplay);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.PlayerAddDamage);
             this.Controls.Add(this.btnEditPlayer);
             this.Controls.Add(this.PlayerDisplay);
             this.Controls.Add(this.CharacterDisplay);
@@ -321,9 +324,9 @@
         private System.Windows.Forms.Label CharacterDisplay;
         private System.Windows.Forms.Label PlayerDisplay;
         private System.Windows.Forms.Button btnEditPlayer;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button PlayerAddDamage;
+        private System.Windows.Forms.Button NPCaddDamage;
+        private System.Windows.Forms.Button EditNPCbtn;
         private System.Windows.Forms.Label NPCNameDisplay;
         private System.Windows.Forms.Label NPCHPDisplay;
         private System.Windows.Forms.Label CRDisplay;

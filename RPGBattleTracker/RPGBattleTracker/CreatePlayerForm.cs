@@ -24,12 +24,16 @@ namespace RPGBattleTracker
             Prev = previousForm;
             finishedPlayer = P;
             add = false;
+            prevCurrent = P.getCurrentHP();
+            prevMax = P.getMaxHP();
             InitializeComponent();
             SetUp();
         }
         private MainForm Prev;
         public Player finishedPlayer;
         private bool add;
+        private int prevCurrent;
+        private int prevMax;
 
         public bool CheckforErrors()
         {
@@ -51,6 +55,13 @@ namespace RPGBattleTracker
         private void Completedbtn_Click(object sender, EventArgs e)
         {
             finishedPlayer = new Player(Convert.ToInt32(Level.Value), Convert.ToInt32(MaxHP.Value), Race.Text, Class.Text, CharacterName.Text, PlayerName.Text, CharacterNotes.Text, Convert.ToInt32(Passive.Value));
+
+            if (add == false)
+            {
+                int total = prevCurrent+(Convert.ToInt32(MaxHP.Value) - prevMax);
+                finishedPlayer.setHP(total);
+            }
+
             Prev.CreatePlayerDone(add);
         }
     }

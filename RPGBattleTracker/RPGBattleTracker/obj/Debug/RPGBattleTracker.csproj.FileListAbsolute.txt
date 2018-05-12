@@ -21,3 +21,5 @@ C:\Users\Jonah White\Documents\GitHub\RPG-Projects\RPGBattleTracker\RPGBattleTra
 C:\Users\Jonah White\Documents\GitHub\RPG-Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.pdb
 C:\Users\Jonah White\Documents\GitHub\RPG-Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.Player_Initative_Form.resources
 C:\Users\Jonah White\Documents\GitHub\RPG-Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.MainForm.resources
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.DamageForm.resources
+C:\Users\Jonah White\Documents\GitHub\RPG-Projects\RPGBattleTracker\RPGBattleTracker\obj\Debug\RPGBattleTracker.DamageRollerForm.resources
